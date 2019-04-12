@@ -25,7 +25,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Borges Völker, Emanuel
+Contributors: Borges Völker, Emanuel; Köhn, Arne; Wendt, Maximilian
 Contributing: elsewhere
 Contact: fstx234@studium.uni-hamburg.de
 ===============================================================================
