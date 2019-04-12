@@ -32,18 +32,19 @@ was resolved by using external data sources (wiktionary) and manual input
 from annotators.
 
 
-# Acknowledgements
+# Acknowledgments
 
 The following people worked on the conversion:
- - Emanuel Borges Völker (conversion: grammar development, annotation refinements, ...)
- - Maximilan Wendt (conversion: grammar development, annotation refinements, ...)
- - Felix Hennig (initial TrUDucer development)
+ - Emanuel Borges Völker (conversion: grammar development, annotation refinements, …)
+ - Maximilan Wendt (conversion: grammar development, annotation refinements, …)
+ - Felix Hennig (initial grammar development, main TrUDucer development)
  - Arne Köhn (supervision)
 
 
 ## References
 
-If you use this treebank, please cite {the paper describing the conversion to UD: [HDT2UD-Paper](link)}
+If you use this treebank, please cite the upcoming paper describing
+the conversion of the HDT to UD.
 
 The TrUDucer paper describing the formalism behind the conversion:
 
@@ -105,6 +106,8 @@ annotations are licensed under a Creative Commons share-alike license.
 
 
 # Changelog
+
+UD 2.4: initial release
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
