@@ -24,19 +24,33 @@ annotating sentences as well as a constraint-based parser.
 For [UD_German-HDT](https://github.com/UniversalDependencies/UD_German-HDT),
 206,794 sentences (3.8M tokens) from the original HDT were converted
 with [TrUDucer](https://gitlab.com/nats/TrUDucer), a treebank
-conversion tool created by Felix Henning and extended by Maximilan
+conversion tool created by Felix Hennig and extended by Maximilian
 Wendt and Emanuel Borges Völker. The conversion has a very high
 accuracy of 97% (checked on a manually converted subset of the
 treebank). Annotation information not captured in the original annotation
-was resolved by using external data sources (wiktionary) and manual input
+was resolved by using external data sources (Wiktionary) and manual input
 from annotators.
 
+# Data quality
+
+While the conversion is automatic, the rules are quite extensive and
+have been developed over the course of more than half a year.  We
+manually confirmed the correctness on relevant sub-sets and monitored
+the conversion.  We used external knowledge in the form of the German
+Wiktionary to identify inherently reflexive verbs.
+
+The main focus of the original HDT annotation were the dependency
+relations.  Some morphological features are under-specified (such as
+“not-fem” to denote that a word is either neuter or masculine) and
+during the conversion process we noted that sometimes the normal noun
+(NN) and proper noun (NE) are mixed up in the source annotation. This
+translates to the conversion and we aim to fix it in the future.
 
 # Acknowledgments
 
 The following people worked on the conversion:
  - Emanuel Borges Völker (conversion: grammar development, annotation refinements, …)
- - Maximilan Wendt (conversion: grammar development, annotation refinements, …)
+ - Maximilian Wendt (conversion: grammar development, annotation refinements, …)
  - Felix Hennig (initial grammar development, main TrUDucer development)
  - Arne Köhn (supervision)
 
@@ -78,7 +92,8 @@ convert the HDT.  Comes with a pipeline to replicate the conversion of
 the HDT.
 
 [jwcdg](https://gitlab.com/nats/jwcdg), the successor of the parser
-used for initial automatic annotation
+used for initial automatic annotation of the HDT.  It contains the
+lexicon with the relevant morpho-syntactic features annotated.
 
 [DECCA](http://sifnos.sfs.uni-tuebingen.de/decca/), a tool to detect
 and correct errors in annotated corpora
