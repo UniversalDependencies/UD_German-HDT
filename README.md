@@ -106,13 +106,12 @@ The HDT consists of three parts:
 - part B (104,795 sentences) - manually annotated but not checked with DECCA 
 - part C (55,027 sentences) - automatically parsed with WCDG and not included in the UD release
 
+Sentences which where not accepted by the UD validation script do not appear in the current version and may be added in future releases. Of the 206,794 converted sentences, 173,247 sentences are currently included.
 Due to their size, they are arranged in [Github](https://github.com/UniversalDependencies/UD_German-HDT) as follows:
-- de_hdt-ud-dev.conllu - sentences 1 to 10000 from part A, sentences 102001 to 112000 from part B
-- de_hdt-ud-test.conllu - sentences 10001 to 20000 from part A, sentences 112001 to 122000 from part B
-- de_hdt-ud-train-a.conllu - sentences 20001 to 102000 from part A
-- de_hdt-ud-train-b.conllu - sentences 122001 to 206794 from part B
-
-Sentences which where not accepted by the UD validation script do not appear in the current version and may be added in future releases.
+- de_hdt-ud-dev.conllu (17,293 sentences) - sentences 1 to 10000 from part A, sentences 102001 to 112000 from part B
+- de_hdt-ud-test.conllu (17,028 sentences) - sentences 10001 to 20000 from part A, sentences 112001 to 122000 from part B
+- de_hdt-ud-train-a.conllu (68,801 sentences) - sentences 20001 to 102000 from part A
+- de_hdt-ud-train-b.conllu (70,125 sentences) - sentences 122001 to 206794 from part B
 
 # License
 
