@@ -126,7 +126,7 @@ UD 2.4: initial release
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.4
-License: HZSK-ACA (Text) / CC BY-SA-4.0 (Annotation)
+License: HZSK-ACA (Text) / CC BY-SA 4.0 (Annotation)
 Includes text: yes
 Genre: news nonfiction web
 Lemmas: converted from manual
