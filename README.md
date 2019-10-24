@@ -65,7 +65,7 @@ Köhn, Arne (2019).  HDT-UD: A very large Universal Dependencies
 Treebank for German. In Proceedings of the Third Workshop on Universal
 Dependencies (UDW, SyntaxFest 2019) (pp. 46–57). Paris, France:
 Association for Computational Linguistics.  url:
-https://www.aclweb.org/anthology/W19-8006"
+https://www.aclweb.org/anthology/W19-8006
 
 
 
