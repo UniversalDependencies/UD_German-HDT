@@ -34,7 +34,7 @@ from annotators.
 # Data quality
 
 While the conversion is automatic, the rules are quite extensive and
-have been developed over the course of more than half a year.  We
+have been developed over the course of more than a year.  We
 manually confirmed the correctness on relevant sub-sets and monitored
 the conversion.  We used external knowledge in the form of the German
 Wiktionary to identify inherently reflexive verbs.
@@ -57,8 +57,17 @@ The following people worked on the conversion:
 
 ## References
 
-If you use this treebank, please cite the upcoming paper describing
-the conversion of the HDT to UD.
+If you use this treebank, please cite the following paper, describing
+the conversion of the HDT to UD:
+
+Borges Völker, Emanuel and Wendt, Maximilian and Hennig, Felix and
+Köhn, Arne (2019).  HDT-UD: A very large Universal Dependencies
+Treebank for German. In Proceedings of the Third Workshop on Universal
+Dependencies (UDW, SyntaxFest 2019) (pp. 46–57). Paris, France:
+Association for Computational Linguistics.  url:
+https://www.aclweb.org/anthology/W19-8006"
+
+
 
 The TrUDucer paper describing the formalism behind the conversion:
 
