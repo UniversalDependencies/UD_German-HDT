@@ -34,7 +34,7 @@ from annotators.
 # Data quality
 
 While the conversion is automatic, the rules are quite extensive and
-have been developed over the course of more than half a year.  We
+have been developed over the course of more than a year.  We
 manually confirmed the correctness on relevant sub-sets and monitored
 the conversion.  We used external knowledge in the form of the German
 Wiktionary to identify inherently reflexive verbs.
@@ -57,8 +57,17 @@ The following people worked on the conversion:
 
 ## References
 
-If you use this treebank, please cite the upcoming paper describing
-the conversion of the HDT to UD.
+If you use this treebank, please cite the following paper, describing
+the conversion of the HDT to UD:
+
+Borges Völker, Emanuel and Wendt, Maximilian and Hennig, Felix and
+Köhn, Arne (2019).  HDT-UD: A very large Universal Dependencies
+Treebank for German. In Proceedings of the Third Workshop on Universal
+Dependencies (UDW, SyntaxFest 2019) (pp. 46–57). Paris, France:
+Association for Computational Linguistics.  url:
+https://www.aclweb.org/anthology/W19-8006
+
+
 
 The TrUDucer paper describing the formalism behind the conversion:
 
@@ -102,8 +111,8 @@ and correct errors in annotated corpora
 # Data Split
 
 The HDT consists of three parts:
-- part A (101,999 sentences) - manually annotated and checked for consistency with DECCA 
-- part B (104,795 sentences) - manually annotated but not checked with DECCA 
+- part A (101,999 sentences) - manually annotated and checked for consistency with DECCA
+- part B (104,795 sentences) - manually annotated but not checked with DECCA
 - part C (55,027 sentences) - automatically parsed with WCDG and not included in the UD release
 
 Sentences which where not accepted by the UD validation script do not appear in the current version and may be added in future releases. Of the 206,794 converted sentences, 173,247 sentences are currently included.
@@ -126,7 +135,7 @@ UD 2.4: initial release
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.4
-License: HZSK-ACA (Text) / CC BY-SA-4.0 (Annotation)
+License: HZSK-ACA (Text) / CC BY-SA 4.0 (Annotation)
 Includes text: yes
 Genre: news nonfiction web
 Lemmas: converted from manual
@@ -136,6 +145,6 @@ Features: converted from manual
 Relations: converted with corrections
 Contributors: Borges Völker, Emanuel; Hennig, Felix; Köhn, Arne; Wendt, Maximilan
 Contributing: elsewhere
-Contact: Arne Köhn <arne@chark.eu>
+Contact: arne@chark.eu
 ===============================================================================
 </pre>
