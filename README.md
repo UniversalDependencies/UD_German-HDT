@@ -111,8 +111,8 @@ and correct errors in annotated corpora
 # Data Split
 
 The HDT consists of three parts:
-- part A (101,999 sentences) - manually annotated and checked for consistency with DECCA 
-- part B (104,795 sentences) - manually annotated but not checked with DECCA 
+- part A (101,999 sentences) - manually annotated and checked for consistency with DECCA
+- part B (104,795 sentences) - manually annotated but not checked with DECCA
 - part C (55,027 sentences) - automatically parsed with WCDG and not included in the UD release
 
 Sentences which where not accepted by the UD validation script do not appear in the current version and may be added in future releases. Of the 206,794 converted sentences, 173,247 sentences are currently included.
@@ -145,6 +145,6 @@ Features: converted from manual
 Relations: converted with corrections
 Contributors: Borges Völker, Emanuel; Hennig, Felix; Köhn, Arne; Wendt, Maximilan
 Contributing: elsewhere
-Contact: Arne Köhn <arne@chark.eu>
+Contact: arne@chark.eu
 ===============================================================================
 </pre>
