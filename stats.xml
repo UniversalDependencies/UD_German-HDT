@@ -83,10 +83,10 @@
     <feat name="VerbType" value="Mod" upos="AUX">48361</feat><!-- soll, will, können, kann, sollen, wollen, müssen, muss, könnte, konnte -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="39">
+  <deps unique="40">
     <dep name="acl">28659</dep>
     <dep name="advcl">17867</dep>
-    <dep name="advmod">258465</dep>
+    <dep name="advmod">258463</dep>
     <dep name="amod">189509</dep>
     <dep name="appos">45767</dep>
     <dep name="aux">84724</dep>
@@ -94,6 +94,7 @@
     <dep name="case">381146</dep>
     <dep name="cc">75304</dep>
     <dep name="ccomp">17415</dep>
+    <dep name="compound">1</dep>
     <dep name="compound:prt">20645</dep>
     <dep name="conj">94970</dep>
     <dep name="cop">25362</dep>
@@ -106,15 +107,15 @@
     <dep name="expl:pv">10468</dep>
     <dep name="flat">37877</dep>
     <dep name="flat:name">55475</dep>
-    <dep name="iobj">6088</dep>
+    <dep name="iobj">6087</dep>
     <dep name="mark">49678</dep>
-    <dep name="nmod">224897</dep>
+    <dep name="nmod">224896</dep>
     <dep name="nmod:poss">10</dep>
     <dep name="nsubj">221680</dep>
     <dep name="nsubj:pass">29983</dep>
     <dep name="nummod">58781</dep>
     <dep name="obj">154653</dep>
-    <dep name="obl">221735</dep>
+    <dep name="obl">221736</dep>
     <dep name="obl:arg">4</dep>
     <dep name="orphan">6</dep>
     <dep name="parataxis">16071</dep>
@@ -122,6 +123,6 @@
     <dep name="reparandum">40</dep>
     <dep name="root">189928</dep>
     <dep name="vocative">15</dep>
-    <dep name="xcomp">21975</dep>
+    <dep name="xcomp">21977</dep>
   </deps>
 </treebank>
