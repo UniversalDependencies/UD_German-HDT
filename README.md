@@ -130,6 +130,8 @@ annotations are licensed under a Creative Commons share-alike license.
 
 # Changelog
 
+2021-09-08
+  * Fixed segmentation of contracted preposition + article.
 UD 2.4: initial release
 
 <pre>
