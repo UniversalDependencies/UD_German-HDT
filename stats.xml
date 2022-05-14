@@ -45,7 +45,7 @@
     <feat name="ConjType" value="Comp" upos="CCONJ">20093</feat><!-- als, wie, denn -->
     <feat name="Definite" value="Def" upos="DET">56190</feat><!-- dem, der, das -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET,PRON">20706</feat><!-- mehr, weitere, weiter, weniger, weiteren, eher, später, besser, schneller, stärker -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,NOUN,PRON,VERB">238995</feat><!-- so, neue, neuen, deutschen, deutsche, anderen, eigenen, andere, vergangenen, viele -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,PRON">234652</feat><!-- so, neue, neuen, deutschen, deutsche, anderen, eigenen, andere, vergangenen, viele -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV,DET,PRON">12090</feat><!-- ersten, nächsten, erste, letzten, größten, meisten, größte, nächste, möglichst, erster -->
     <feat name="Foreign" value="Yes" upos="X">53406</feat><!-- of, internet, the, and, digital, mobile, media, for, OS, network -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">490573</feat><!-- die, der, eine, einer, Millionen, Mark, Milliarden, Telekom, Firma, sie -->
