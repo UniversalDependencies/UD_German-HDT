@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_German-HDT:
-commit 71c95f8860f1be8660ff215642972e73db1af8d4
-Merge: a93a894 eba6172
+commit fd25c7fa7aa5313e684e7940fe510411084c9f64
+Merge: e91edc1 6486f84
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 1000000 of 3455580 words (nodes).
 Size: min(0, log((N/1000)**2)) = 13.8155105579643.
@@ -19,9 +19,9 @@ Features: 3165201 out of 3455580 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
+Killed
 Udapi:
-               TOTAL      19477
-Udapi: found 19477 bugs.
+Udapi: found 0 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 3455580 words.
 Genres: found 3 out of 17 known.
 validate.py --lang de --max-err=10 UD_German-HDT/de_hdt-ud-dev.conllu
@@ -43,8 +43,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=1) = 0.256410256410256
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.94363609003409) = 0.290349566164335
+(weight=0.307692307692308) * (score{udapi}=1) = 0.307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.754054054054054) = 0.058004158004158
-(TOTAL score=0.850616167607407) * (availability=1) * (validity=1) = 0.850616167607407
+(TOTAL score=0.86795890913538) * (availability=1) * (validity=1) = 0.86795890913538
 STARS = 4.5
-UD_German-HDT	0.850616167607407	4.5
+UD_German-HDT	0.86795890913538	4.5
