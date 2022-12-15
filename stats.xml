@@ -38,10 +38,10 @@
     <feat name="AdpType" value="Post" upos="ADP">1190</feat><!-- zufolge, nach, lang, gegenüber, wegen, über, gemäß, entgegen, entlang, halber -->
     <feat name="AdpType" value="Prep" upos="ADP">362795</feat><!-- in, von, für, mit, auf, zu, an, bei, nach, über -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">62615</feat><!-- worden, angekündigt, gewesen, gegeben, gemacht, geplant, erwartet, entwickelt, betroffen, gestellt -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,X">264292</feat><!-- die, für, den, sich, das, auf, eine, einen, in, über -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">485391</feat><!-- dem, in, von, der, mit, zu, den, bei, an, nach -->
-    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">112049</feat><!-- der, des, eines, einer, Jahres, dieser, seiner, Unternehmens, dieses, aller -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">249761</feat><!-- die, der, das, es, ein, eine, man, sie, er, wir -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,X">264230</feat><!-- die, für, den, sich, das, auf, eine, einen, in, über -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">492974</feat><!-- dem, in, von, der, mit, zu, den, bei, an, nach -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">111955</feat><!-- der, des, eines, einer, Jahres, dieser, seiner, Unternehmens, dieses, aller -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">249715</feat><!-- die, der, das, es, ein, eine, man, sie, er, wir -->
     <feat name="ConjType" value="Comp" upos="CCONJ">20093</feat><!-- als, wie, denn -->
     <feat name="Definite" value="Def" upos="DET">56190</feat><!-- dem, der, das -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET,PRON">20706</feat><!-- mehr, weitere, weiter, weniger, weiteren, eher, später, besser, schneller, stärker -->
