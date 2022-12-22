@@ -20,12 +20,12 @@
     <tag name="ADV">194348</tag><!-- auch, noch, nur, so, aber, bereits, allerdings, mehr, damit, schon -->
     <tag name="AUX">153141</tag><!-- sein, werden, haben, können, sollen, wollen, müssen, dürfen, mögen -->
     <tag name="CCONJ">95478</tag><!-- und, als, oder, wie, sowie, aber, sondern, doch, denn, beziehungsweise -->
-    <tag name="DET">477539</tag><!-- der, die, den, das, des, eine, dem, ein, sein, einen -->
+    <tag name="DET">478579</tag><!-- der, die, den, das, des, eine, dem, ein, sein, einen -->
     <tag name="INTJ">74</tag><!-- bitte, ja, nein, Ha, Aha, AHA, Ach, Hey, Hü, Pah -->
     <tag name="NOUN">729104</tag><!-- unknown, Jahr, Unternehmen, Prozent, Million, Internet, Firma, Dollar, System, Markt -->
     <tag name="NUM">71303</tag><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <tag name="PART">35402</tag><!-- nicht, zu -->
-    <tag name="PRON">108096</tag><!-- sich, es, die, sie, man, das, er, der, wir, was -->
+    <tag name="PRON">107056</tag><!-- sich, es, die, sie, man, das, er, der, wir, was -->
     <tag name="PROPN">193992</tag><!-- Microsoft, Telekom, Deutschland, Intel, USA, AOL, ibm, c't, Europa, AMD -->
     <tag name="PUNCT">396266</tag><!-- ., ,, ", :, (, ), -, ;, ?, ! -->
     <tag name="SCONJ">29442</tag><!-- dass, um, wenn, ob, daß, da, während, weil, nachdem, als -->
@@ -67,7 +67,7 @@
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1044</feat><!-- siehe, ihr, du, euch, dir, sprich, update, Stimm, deine, bleibt -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">387976</feat><!-- sich, ist, es, die, hat, wird, soll, sie, sind, man -->
     <feat name="Polarity" value="Neg" upos="PART">18723</feat><!-- nicht -->
-    <feat name="Poss" value="Yes" upos="DET,PRON">18370</feat><!-- ihre, seine, seiner, seinen, ihrer, ihren, sein, seinem, ihr, ihrem -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">18371</feat><!-- ihre, seine, seiner, seinen, ihrer, ihren, sein, seinem, ihr, ihrem -->
     <feat name="PronType" value="Art" upos="DET">427233</feat><!-- der, die, dem, den, das, des, eine, ein, einen, einem -->
     <feat name="PronType" value="Dem" upos="DET,PRON">20602</feat><!-- diese, das, dieser, diesem, dies, dieses, diesen, deren, die, dessen -->
     <feat name="PronType" value="Ind,Neg,Tot" upos="DET,PRON">20987</feat><!-- man, mehr, anderem, einige, nichts, einigen, mehrere, einer, weniger, etwas -->
