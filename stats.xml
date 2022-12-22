@@ -20,12 +20,12 @@
     <tag name="ADV">194348</tag><!-- auch, noch, nur, so, aber, bereits, allerdings, mehr, damit, schon -->
     <tag name="AUX">153141</tag><!-- sein, werden, haben, können, sollen, wollen, müssen, dürfen, mögen -->
     <tag name="CCONJ">95478</tag><!-- und, als, oder, wie, sowie, aber, sondern, doch, denn, beziehungsweise -->
-    <tag name="DET">463566</tag><!-- der, die, den, das, des, eine, dem, ein, einen, dies -->
+    <tag name="DET">471325</tag><!-- der, die, den, das, des, eine, dem, ein, einen, dies -->
     <tag name="INTJ">74</tag><!-- bitte, ja, nein, Ha, Aha, AHA, Ach, Hey, Hü, Pah -->
     <tag name="NOUN">729104</tag><!-- unknown, Jahr, Unternehmen, Prozent, Million, Internet, Firma, Dollar, System, Markt -->
     <tag name="NUM">71303</tag><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <tag name="PART">35402</tag><!-- nicht, zu -->
-    <tag name="PRON">122069</tag><!-- sich, sein, es, die, sie, man, das, er, der, wir -->
+    <tag name="PRON">114310</tag><!-- sich, es, die, sie, man, sein, das, er, der, wir -->
     <tag name="PROPN">193992</tag><!-- Microsoft, Telekom, Deutschland, Intel, USA, AOL, ibm, c't, Europa, AMD -->
     <tag name="PUNCT">396266</tag><!-- ., ,, ", :, (, ), -, ;, ?, ! -->
     <tag name="SCONJ">29442</tag><!-- dass, um, wenn, ob, daß, da, während, weil, nachdem, als -->
@@ -33,7 +33,7 @@
     <tag name="X">53713</tag><!-- of, internet, the, and, digital, mobile, media, for, OS, network -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="52">
+  <feats unique="53">
     <feat name="AdpType" value="Circ" upos="ADP">1243</feat><!-- hinaus, aus, an, hin, her, hinweg, heraus, vorbei, zu, auf -->
     <feat name="AdpType" value="Post" upos="ADP">1190</feat><!-- zufolge, nach, lang, gegenüber, wegen, über, gemäß, entgegen, entlang, halber -->
     <feat name="AdpType" value="Prep" upos="ADP">362795</feat><!-- in, von, für, mit, auf, zu, an, bei, nach, über -->
@@ -52,12 +52,13 @@
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">408664</feat><!-- der, den, dem, des, einen, ein, einem, er, US-Dollar, Euro -->
     <feat name="Gender" value="Masc,Neut" upos="DET">47860</feat><!-- dem -->
     <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,PRON,PROPN,X">289063</feat><!-- das, es, ein, des, dem, Prozent, Internet, Unternehmen, Jahr, einem -->
+    <feat name="Gender[psor]" value="Masc,Neut" upos="DET">7759</feat><!-- seine, seiner, seinen, sein, seinem, seines -->
     <feat name="Hyph" value="Yes" upos="NOUN">6087</feat><!-- informations-, internet-, Rück-, Audio-, computer-, Industrie-, Telekommunikations-, Telefon-, Hard-, Umsatz- -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">747</feat><!-- siehe, sprich, update, Stimm, Bleibt, lies, Mach, Mehr, schaut, vgl. -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">267739</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">568506</feat><!-- die, der, den, Prozent, sind, Millionen, sie, werden, Mark, haben -->
     <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">1334652</feat><!-- der, dem, die, das, des, den, eine, ein, ist, es -->
-    <feat name="Number[psor]" value="Sing" upos="DET">220</feat><!-- mein, meine, meiner, meinem, meinen, deine, meines, dein, deiner, Deinem -->
+    <feat name="Number[psor]" value="Sing" upos="DET">7979</feat><!-- seine, seiner, seinen, sein, seinem, seines, mein, meine, meiner, meinem -->
     <feat name="NumType" value="Card" upos="NUM">71302</feat><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <feat name="PartType" value="Inf" upos="PART">16679</feat><!-- zu -->
     <feat name="PartType" value="Res" upos="INTJ">37</feat><!-- ja, nein -->
