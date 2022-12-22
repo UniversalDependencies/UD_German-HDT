@@ -58,7 +58,7 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">267739</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">568506</feat><!-- die, der, den, Prozent, sind, Millionen, sie, werden, Mark, haben -->
     <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">1334652</feat><!-- der, dem, die, das, des, den, eine, ein, ist, es -->
-    <feat name="Number[psor]" value="Plur" upos="DET">13</feat><!-- eure, euer, eurem, euren, eurer -->
+    <feat name="Number[psor]" value="Plur" upos="DET">1053</feat><!-- unsere, unserer, unser, unseren, unserem, unseres, eure, euer, eurem, euren -->
     <feat name="Number[psor]" value="Sing" upos="DET">7979</feat><!-- seine, seiner, seinen, sein, seinem, seines, mein, meine, meiner, meinem -->
     <feat name="NumType" value="Card" upos="NUM">71302</feat><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <feat name="PartType" value="Inf" upos="PART">16679</feat><!-- zu -->
