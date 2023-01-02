@@ -49,7 +49,7 @@
     <feat name="Degree" value="Pos" upos="ADJ,ADV,PRON">232628</feat><!-- so, neue, neuen, deutschen, deutsche, anderen, eigenen, andere, vergangenen, möglich -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV,DET,PRON">12090</feat><!-- ersten, nächsten, erste, letzten, größten, meisten, größte, nächste, möglichst, erster -->
     <feat name="Foreign" value="Yes" upos="DET,X">53406</feat><!-- of, internet, the, and, digital, mobile, media, for, OS, network -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">490573</feat><!-- die, der, eine, einer, Millionen, Mark, Milliarden, Telekom, Firma, sie -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">490574</feat><!-- die, der, eine, einer, Millionen, Mark, Milliarden, Telekom, Firma, sie -->
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">408664</feat><!-- der, den, dem, des, einen, ein, einem, er, US-Dollar, Euro -->
     <feat name="Gender" value="Masc,Neut" upos="DET">47860</feat><!-- dem -->
     <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,PRON,PROPN,X">289063</feat><!-- das, es, ein, des, dem, Prozent, Internet, Unternehmen, Jahr, einem -->
