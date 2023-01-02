@@ -58,14 +58,14 @@
     <feat name="Mood" value="Imp" upos="AUX,VERB">747</feat><!-- siehe, sprich, update, Stimm, Bleibt, lies, Mach, Mehr, schaut, vgl. -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">267739</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">568506</feat><!-- die, der, den, Prozent, sind, Millionen, sie, werden, Mark, haben -->
-    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">1334652</feat><!-- der, dem, die, das, des, den, eine, ein, ist, es -->
+    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">1334653</feat><!-- der, dem, die, das, des, den, eine, ein, ist, es -->
     <feat name="Number[psor]" value="Plur" upos="DET">1053</feat><!-- unsere, unserer, unser, unseren, unserem, unseres, eure, euer, eurem, euren -->
     <feat name="Number[psor]" value="Sing" upos="DET">7979</feat><!-- seine, seiner, seinen, sein, seinem, seines, mein, meine, meiner, meinem -->
     <feat name="NumType" value="Card" upos="NUM">71302</feat><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <feat name="PartType" value="Inf" upos="PART">16679</feat><!-- zu -->
     <feat name="PartType" value="Res" upos="INTJ">37</feat><!-- ja, nein -->
     <feat name="PartType" value="Vbp" upos="ADP">20484</feat><!-- an, aus, vor, ein, auf, ab, mit, bekannt, zurück, zu -->
-    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">11167</feat><!-- wir, ich, uns, haben, unsere, sind, werden, unserer, können, unser -->
+    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">11168</feat><!-- wir, ich, uns, haben, unsere, sind, werden, unserer, können, unser -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1044</feat><!-- siehe, ihr, du, euch, dir, sprich, update, Stimm, deine, bleibt -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">351977</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, man, sei -->
     <feat name="Polarity" value="Neg" upos="PART">18723</feat><!-- nicht -->
