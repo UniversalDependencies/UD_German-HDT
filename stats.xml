@@ -43,7 +43,7 @@
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">111955</feat><!-- der, des, eines, einer, Jahres, dieser, seiner, Unternehmens, dieses, aller -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">249715</feat><!-- die, der, das, es, ein, eine, man, sie, er, wir -->
     <feat name="ConjType" value="Comp" upos="CCONJ">20093</feat><!-- als, wie, denn -->
-    <feat name="Definite" value="Def" upos="DET">95641</feat><!-- dem, Die, der, das, Den, Des -->
+    <feat name="Definite" value="Def" upos="DET">95650</feat><!-- dem, Die, der, das, Den, Des, 's -->
     <feat name="Definite" value="Ind" upos="DET">4836</feat><!-- Ein, Eine, Einen, Einem, Einer, Eines, 'n, EINEM -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET,PRON">20706</feat><!-- mehr, weitere, weiter, weniger, weiteren, eher, später, besser, schneller, stärker -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV,PRON">232628</feat><!-- so, neue, neuen, deutschen, deutsche, anderen, eigenen, andere, vergangenen, möglich -->
