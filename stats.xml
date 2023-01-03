@@ -72,7 +72,7 @@
     <feat name="Polite" value="Form" upos="DET,PRON">120</feat><!-- Ihnen, Ihre, Ihr, Ihren, Ihrer, Ihrem -->
     <feat name="Poss" value="Yes" upos="DET,PRON">18371</feat><!-- ihre, seine, seiner, seinen, ihrer, ihren, sein, seinem, ihr, ihrem -->
     <feat name="PronType" value="Art" upos="DET">427234</feat><!-- der, die, dem, den, das, des, eine, ein, einen, einem -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">20696</feat><!-- diese, das, dieser, diesem, dies, dieses, diesen, deren, die, dessen -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">35163</feat><!-- diese, damit, das, dieser, diesem, dies, dazu, dieses, dafür, diesen -->
     <feat name="PronType" value="Ind" upos="DET">4759</feat><!-- viele, anderem, viel, vielen, anderen, andere, vieler, anderes, vieles, a. -->
     <feat name="PronType" value="Ind,Neg,Tot" upos="DET,PRON">17567</feat><!-- man, mehr, einige, nichts, einigen, mehrere, einer, weniger, etwas, einiger -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">7404</feat><!-- wie, wer, was, wo, wann, warum, wobei, wonach, wodurch, womit -->
@@ -97,7 +97,7 @@
   <deps unique="39">
     <dep name="acl">28659</dep>
     <dep name="advcl">17867</dep>
-    <dep name="advmod">258428</dep>
+    <dep name="advmod">259782</dep>
     <dep name="amod">186596</dep>
     <dep name="appos">45767</dep>
     <dep name="aux">84724</dep>
@@ -125,8 +125,8 @@
     <dep name="nsubj:pass">29983</dep>
     <dep name="nummod">58781</dep>
     <dep name="obj">154570</dep>
-    <dep name="obl">221771</dep>
-    <dep name="obl:arg">6091</dep>
+    <dep name="obl">220418</dep>
+    <dep name="obl:arg">6090</dep>
     <dep name="orphan">6</dep>
     <dep name="parataxis">16071</dep>
     <dep name="punct">396266</dep>
