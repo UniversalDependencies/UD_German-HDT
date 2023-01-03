@@ -66,8 +66,8 @@
     <feat name="PartType" value="Res" upos="INTJ">37</feat><!-- ja, nein -->
     <feat name="PartType" value="Vbp" upos="ADP">20484</feat><!-- an, aus, vor, ein, auf, ab, mit, bekannt, zurück, zu -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">11168</feat><!-- wir, ich, uns, haben, unsere, sind, werden, unserer, können, unser -->
-    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1044</feat><!-- siehe, ihr, du, euch, dir, sprich, update, Stimm, deine, bleibt -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">351977</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, man, sei -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">972</feat><!-- siehe, du, dir, sprich, update, Stimm, deine, bleibt, werdet, deiner -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">352049</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, man, sei -->
     <feat name="Polarity" value="Neg" upos="PART">18723</feat><!-- nicht -->
     <feat name="Poss" value="Yes" upos="DET,PRON">18371</feat><!-- ihre, seine, seiner, seinen, ihrer, ihren, sein, seinem, ihr, ihrem -->
     <feat name="PronType" value="Art" upos="DET">427234</feat><!-- der, die, dem, den, das, des, eine, ein, einen, einem -->
