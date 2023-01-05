@@ -20,12 +20,12 @@
     <tag name="ADV">194370</tag><!-- auch, noch, nur, so, aber, bereits, allerdings, mehr, damit, schon -->
     <tag name="AUX">153141</tag><!-- sein, werden, haben, können, sollen, wollen, müssen, dürfen, mögen -->
     <tag name="CCONJ">95478</tag><!-- und, als, oder, wie, sowie, aber, sondern, doch, denn, beziehungsweise -->
-    <tag name="DET">488474</tag><!-- der, ein, eine, sein, dieser, einen, einem, einer, alle, kein -->
+    <tag name="DET">487895</tag><!-- der, ein, eine, sein, dieser, einen, einem, einer, alle, kein -->
     <tag name="INTJ">74</tag><!-- bitte, ja, nein, Ha, Aha, AHA, Ach, Hey, Hü, Pah -->
     <tag name="NOUN">729104</tag><!-- unknown, Jahr, Unternehmen, Prozent, Million, Internet, Firma, Dollar, System, Markt -->
     <tag name="NUM">71303</tag><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <tag name="PART">35402</tag><!-- nicht, zu -->
-    <tag name="PRON">99542</tag><!-- der, sich, es, sie, man, er, wir, was, ein, wer -->
+    <tag name="PRON">100121</tag><!-- der, sich, es, sie, man, er, wir, was, ein, wer -->
     <tag name="PROPN">193940</tag><!-- Microsoft, Telekom, Deutschland, Intel, USA, AOL, ibm, c't, Europa, AMD -->
     <tag name="PUNCT">396266</tag><!-- ., ,, ", :, (, ), -, ;, ?, ! -->
     <tag name="SCONJ">29442</tag><!-- dass, um, wenn, ob, daß, da, während, weil, nachdem, als -->
@@ -39,8 +39,8 @@
     <feat name="AdpType" value="Prep" upos="ADP">362795</feat><!-- in, von, für, mit, auf, zu, an, bei, nach, über -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">62615</feat><!-- worden, angekündigt, gewesen, gegeben, gemacht, geplant, erwartet, entwickelt, betroffen, gestellt -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,X">264198</feat><!-- die, für, den, sich, das, auf, eine, einen, in, über -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">492946</feat><!-- dem, in, von, der, mit, zu, den, bei, an, nach -->
-    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">112848</feat><!-- der, des, eines, einer, Jahres, dieser, seiner, Unternehmens, deren, dieses -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">492932</feat><!-- dem, in, von, der, mit, zu, den, bei, an, nach -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">113427</feat><!-- der, des, eines, einer, Jahres, dieser, seiner, Unternehmens, deren, dieses -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">249715</feat><!-- die, der, das, es, ein, eine, man, sie, er, wir -->
     <feat name="ConjType" value="Comp" upos="CCONJ">20093</feat><!-- als, wie, denn -->
     <feat name="Definite" value="Def" upos="DET">95650</feat><!-- dem, Die, der, das, Den, Des, 's -->
@@ -58,7 +58,7 @@
     <feat name="Mood" value="Imp" upos="AUX,VERB">747</feat><!-- siehe, sprich, update, Stimm, Bleibt, lies, Mach, Mehr, schaut, vgl. -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">267739</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">568436</feat><!-- die, der, den, Prozent, sind, Millionen, sie, werden, Mark, haben -->
-    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">1334600</feat><!-- der, dem, die, das, des, den, eine, ein, ist, es -->
+    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">1335179</feat><!-- der, dem, die, das, des, den, eine, ein, ist, es -->
     <feat name="Number[psor]" value="Plur" upos="DET">1119</feat><!-- unsere, unserer, unser, unseren, unserem, unseres, eure, euer, eurem, euren -->
     <feat name="Number[psor]" value="Sing" upos="DET">15540</feat><!-- seine, ihre, seiner, seinen, sein, ihren, ihrer, seinem, ihr, seines -->
     <feat name="NumType" value="Card" upos="DET,NUM">72307</feat><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
@@ -72,15 +72,15 @@
     <feat name="Polite" value="Form" upos="DET,PRON">120</feat><!-- Ihnen, Ihre, Ihr, Ihren, Ihrer, Ihrem -->
     <feat name="Poss" value="Yes" upos="DET,PRON">18371</feat><!-- ihre, seine, seiner, seinen, ihrer, ihren, sein, seinem, ihr, ihrem -->
     <feat name="PronType" value="Art" upos="DET">427234</feat><!-- der, die, dem, den, das, des, eine, ein, einen, einem -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">34681</feat><!-- diese, damit, das, dieser, diesem, dies, dazu, dieses, dafür, diesen -->
-    <feat name="PronType" value="Dem,Rel" upos="PRON">894</feat><!-- deren -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">34311</feat><!-- diese, damit, das, dieser, diesem, dies, dazu, dieses, dafür, diesen -->
+    <feat name="PronType" value="Dem,Rel" upos="PRON">1570</feat><!-- deren, dessen -->
     <feat name="PronType" value="Ind" upos="ADV,DET">4813</feat><!-- viele, anderem, viel, vielen, anderen, andere, vieler, anderes, bisschen, vieles -->
     <feat name="PronType" value="Ind,Neg,Tot" upos="DET,PRON">17564</feat><!-- man, mehr, einige, nichts, einigen, mehrere, einer, weniger, etwas, einiger -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">7404</feat><!-- wie, wer, was, wo, wann, warum, wobei, wonach, wodurch, womit -->
     <feat name="PronType" value="Int,Rel" upos="DET">815</feat><!-- welche, welchen, welcher, welches, welchem, welch -->
     <feat name="PronType" value="Neg" upos="DET">5432</feat><!-- keine, kein, keinen, keiner, keinem, keines, keins -->
     <feat name="PronType" value="Prs" upos="DET,PRON">72578</feat><!-- sich, es, sie, er, wir, ihre, seine, seiner, seinen, ihrer -->
-    <feat name="PronType" value="Rel" upos="DET,PRON">24037</feat><!-- die, der, das, dem, was, denen, den, dessen, derer, da -->
+    <feat name="PronType" value="Rel" upos="PRON">23731</feat><!-- die, der, das, dem, was, denen, den, derer, da, der/das -->
     <feat name="PronType" value="Tot" upos="DET,PRON">11054</feat><!-- alle, allem, aller, allen, jeder, beide, alles, jede, jeden, jedem -->
     <feat name="PunctType" value="Brck" upos="PUNCT">78773</feat><!-- ", (, ), - -->
     <feat name="PunctType" value="Comm" upos="PUNCT">140408</feat><!-- , -->
@@ -112,7 +112,7 @@
     <dep name="cop">25362</dep>
     <dep name="csubj">5387</dep>
     <dep name="csubj:pass">919</dep>
-    <dep name="det">480874</dep>
+    <dep name="det">480295</dep>
     <dep name="det:poss">11</dep>
     <dep name="discourse">25</dep>
     <dep name="expl">3114</dep>
@@ -120,7 +120,7 @@
     <dep name="flat">37877</dep>
     <dep name="flat:name">55475</dep>
     <dep name="mark">49678</dep>
-    <dep name="nmod">224783</dep>
+    <dep name="nmod">225362</dep>
     <dep name="nmod:poss">11</dep>
     <dep name="nsubj">221680</dep>
     <dep name="nsubj:pass">29983</dep>
