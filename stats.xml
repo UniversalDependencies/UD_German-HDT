@@ -43,7 +43,7 @@
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">113427</feat><!-- der, des, eines, einer, Jahres, dieser, seiner, Unternehmens, deren, dieses -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">249715</feat><!-- die, der, das, es, ein, eine, man, sie, er, wir -->
     <feat name="ConjType" value="Comp" upos="CCONJ">20093</feat><!-- als, wie, denn -->
-    <feat name="Definite" value="Def" upos="DET">95650</feat><!-- dem, Die, der, das, Den, Des, 's -->
+    <feat name="Definite" value="Def" upos="DET">359942</feat><!-- der, die, dem, den, das, des, 's -->
     <feat name="Definite" value="Ind" upos="DET">4836</feat><!-- Ein, Eine, Einen, Einem, Einer, Eines, 'n, EINEM -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET,PRON">20706</feat><!-- mehr, weitere, weiter, weniger, weiteren, eher, später, besser, schneller, stärker -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV,PRON">232628</feat><!-- so, neue, neuen, deutschen, deutsche, anderen, eigenen, andere, vergangenen, möglich -->
@@ -71,7 +71,7 @@
     <feat name="Polarity" value="Neg" upos="PART">18723</feat><!-- nicht -->
     <feat name="Polite" value="Form" upos="DET,PRON">120</feat><!-- Ihnen, Ihre, Ihr, Ihren, Ihrer, Ihrem -->
     <feat name="Poss" value="Yes" upos="DET,PRON">18371</feat><!-- ihre, seine, seiner, seinen, ihrer, ihren, sein, seinem, ihr, ihrem -->
-    <feat name="PronType" value="Art" upos="DET">427234</feat><!-- der, die, dem, den, das, des, eine, ein, einen, einem -->
+    <feat name="PronType" value="Art" upos="DET">427240</feat><!-- der, die, dem, den, das, des, eine, ein, einen, einem -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">29883</feat><!-- diese, damit, dieser, diesem, dies, dazu, dieses, dafür, diesen, davon -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">28686</feat><!-- die, das, der, dem, denen, deren, dessen, den, derer -->
     <feat name="PronType" value="Ind" upos="ADV,DET">4813</feat><!-- viele, anderem, viel, vielen, anderen, andere, vieler, anderes, bisschen, vieles -->
