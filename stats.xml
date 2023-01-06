@@ -67,7 +67,7 @@
     <feat name="PartType" value="Vbp" upos="ADP">20484</feat><!-- an, aus, vor, ein, auf, ab, mit, bekannt, zurück, zu -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">11169</feat><!-- wir, ich, uns, haben, unsere, sind, werden, unserer, können, unser -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1092</feat><!-- siehe, Ihnen, du, Ihre, Ihr, dir, sprich, update, Ihren, Stimm -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">341769</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, sei, will -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">340974</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, sei, will -->
     <feat name="Polarity" value="Neg" upos="PART">18723</feat><!-- nicht -->
     <feat name="Polite" value="Form" upos="DET,PRON">120</feat><!-- Ihnen, Ihre, Ihr, Ihren, Ihrer, Ihrem -->
     <feat name="Poss" value="Yes" upos="DET,PRON">18371</feat><!-- ihre, seine, seiner, seinen, ihrer, ihren, sein, seinem, ihr, ihrem -->
@@ -75,10 +75,10 @@
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">29883</feat><!-- diese, damit, dieser, diesem, dies, dazu, dieses, dafür, diesen, davon -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">28686</feat><!-- die, das, der, dem, denen, deren, dessen, den, derer -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">13863</feat><!-- man, mehr, viele, anderem, viel, vielen, anderen, andere, vieler, anderes -->
-    <feat name="PronType" value="Ind,Neg,Tot" upos="DET,PRON">8514</feat><!-- einige, nichts, einigen, mehrere, einer, weniger, etwas, einiger, eines, mehreren -->
+    <feat name="PronType" value="Ind,Neg,Tot" upos="DET,PRON">7719</feat><!-- einige, einigen, mehrere, einer, weniger, etwas, einiger, eines, mehreren, eine -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">7404</feat><!-- wie, wer, was, wo, wann, warum, wobei, wonach, wodurch, womit -->
     <feat name="PronType" value="Int,Rel" upos="DET">815</feat><!-- welche, welchen, welcher, welches, welchem, welch -->
-    <feat name="PronType" value="Neg" upos="DET">5432</feat><!-- keine, kein, keinen, keiner, keinem, keines, keins -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">6227</feat><!-- keine, kein, nichts, keinen, keiner, keinem, keines, nix, keins -->
     <feat name="PronType" value="Prs" upos="DET,PRON">72578</feat><!-- sich, es, sie, er, wir, ihre, seine, seiner, seinen, ihrer -->
     <feat name="PronType" value="Rel" upos="PRON">1044</feat><!-- was, da, der/das, die/der, watt -->
     <feat name="PronType" value="Tot" upos="DET,PRON">11054</feat><!-- alle, allem, aller, allen, jeder, beide, alles, jede, jeden, jedem -->
