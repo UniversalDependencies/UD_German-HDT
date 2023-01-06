@@ -10,7 +10,7 @@
     <dev><sentences>18434</sentences><tokens>319513</tokens><words>324848</words><fused>5335</fused></dev>
     <test><sentences>18459</sentences><tokens>326250</tokens><words>331663</words><fused>5413</fused></test>
   </size>
-  <lemmas unique="70260" /><!-- der, ., ,, in, sein, und, ", von, zu, mit, für, werden, auf, haben, unknown -->
+  <lemmas unique="70259" /><!-- der, ., ,, in, sein, und, ", von, zu, mit, für, werden, auf, haben, unknown -->
   <forms unique="187796" /><!-- ., ,, die, der, in, dem, und, ", von, zu, den, das, mit, für, auf -->
   <fusions unique="21" /><!-- im, am, zum, zur, vom, beim, ins, fürs, ans, übers, aufs, ums, durchs, z., unterm -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -67,7 +67,7 @@
     <feat name="PartType" value="Vbp" upos="ADP">20484</feat><!-- an, aus, vor, ein, auf, ab, mit, bekannt, zurück, zu -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">11169</feat><!-- wir, ich, uns, haben, unsere, sind, werden, unserer, können, unser -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1092</feat><!-- siehe, Ihnen, du, Ihre, Ihr, dir, sprich, update, Ihren, Stimm -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">338714</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, sei, will -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">337390</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, sei, will -->
     <feat name="Polarity" value="Neg" upos="PART">18723</feat><!-- nicht -->
     <feat name="Polite" value="Form" upos="DET,PRON">120</feat><!-- Ihnen, Ihre, Ihr, Ihren, Ihrer, Ihrem -->
     <feat name="Poss" value="Yes" upos="DET,PRON">18371</feat><!-- ihre, seine, seiner, seinen, ihrer, ihren, sein, seinem, ihr, ihrem -->
