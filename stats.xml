@@ -33,7 +33,8 @@
     <tag name="X">53700</tag><!-- of, internet, the, and, digital, mobile, media, for, OS, network -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="59">
+  <feats unique="61">
+    <feat name="Abbr" value="Yes" upos="PRON">3</feat><!-- d. -->
     <feat name="AdpType" value="Circ" upos="ADP">1243</feat><!-- hinaus, aus, an, hin, her, hinweg, heraus, vorbei, zu, auf -->
     <feat name="AdpType" value="Post" upos="ADP">1190</feat><!-- zufolge, nach, lang, gegenüber, wegen, über, gemäß, entgegen, entlang, halber -->
     <feat name="AdpType" value="Prep" upos="ADP">362795</feat><!-- in, von, für, mit, auf, zu, an, bei, nach, über -->
@@ -67,20 +68,20 @@
     <feat name="PartType" value="Vbp" upos="ADP">20484</feat><!-- an, aus, vor, ein, auf, ab, mit, bekannt, zurück, zu -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">11169</feat><!-- wir, ich, uns, haben, unsere, sind, werden, unserer, können, unser -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1092</feat><!-- siehe, Ihnen, du, Ihre, Ihr, dir, sprich, update, Ihren, Stimm -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">337370</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, sei, will -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">337366</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, sei, will -->
     <feat name="Polarity" value="Neg" upos="PART">18723</feat><!-- nicht -->
     <feat name="Polite" value="Form" upos="DET,PRON">120</feat><!-- Ihnen, Ihre, Ihr, Ihren, Ihrer, Ihrem -->
     <feat name="Poss" value="Yes" upos="DET,PRON">18371</feat><!-- ihre, seine, seiner, seinen, ihrer, ihren, sein, seinem, ihr, ihrem -->
     <feat name="PronType" value="Art" upos="DET">427240</feat><!-- der, die, dem, den, das, des, eine, ein, einen, einem -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">29979</feat><!-- diese, damit, dieser, diesem, dies, dazu, dieses, dafür, diesen, davon -->
-    <feat name="PronType" value="Dem,Rel" upos="PRON">28686</feat><!-- die, das, der, dem, denen, deren, dessen, den, derer -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">29976</feat><!-- diese, damit, dieser, diesem, dies, dazu, dieses, dafür, diesen, davon -->
+    <feat name="PronType" value="Dem,Rel" upos="PRON">28690</feat><!-- die, das, der, dem, denen, deren, dessen, den, derer, d. -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">17662</feat><!-- man, mehr, anderen, andere, viele, anderem, viel, vielen, anderer, anderes -->
     <feat name="PronType" value="Ind,Neg,Tot" upos="DET,PRON">7660</feat><!-- einige, einigen, mehrere, einer, weniger, etwas, einiger, eines, mehreren, eine -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">7404</feat><!-- wie, wer, was, wo, wann, warum, wobei, wonach, wodurch, womit -->
     <feat name="PronType" value="Int,Rel" upos="DET">815</feat><!-- welche, welchen, welcher, welches, welchem, welch -->
     <feat name="PronType" value="Neg" upos="DET,PRON">6227</feat><!-- keine, kein, nichts, keinen, keiner, keinem, keines, nix, keins -->
     <feat name="PronType" value="Prs" upos="DET,PRON">72578</feat><!-- sich, es, sie, er, wir, ihre, seine, seiner, seinen, ihrer -->
-    <feat name="PronType" value="Rel" upos="PRON">1044</feat><!-- was, da, der/das, die/der, watt -->
+    <feat name="PronType" value="Rel" upos="PRON">1043</feat><!-- was, der/das, die/der, watt -->
     <feat name="PronType" value="Tot" upos="DET,PRON">11071</feat><!-- alle, allem, aller, allen, jeder, beide, alles, jede, jeden, jedem -->
     <feat name="PunctType" value="Brck" upos="PUNCT">78773</feat><!-- ", (, ), - -->
     <feat name="PunctType" value="Comm" upos="PUNCT">140408</feat><!-- , -->
@@ -88,6 +89,7 @@
     <feat name="Reflex" value="Yes" upos="PRON">21151</feat><!-- sich, uns, mich, mir, euch, einander, dir, dich -->
     <feat name="Tense" value="Past" upos="AUX,VERB">49922</feat><!-- hatte, war, wurde, sagte, wurden, waren, hatten, konnte, gab, erklärte -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">216600</feat><!-- ist, hat, wird, soll, sind, sei, will, werden, kann, haben -->
+    <feat name="Typo" value="Yes" upos="PRON">1</feat><!-- da -->
     <feat name="Variant" value="Short" upos="ADJ">74391</feat><!-- möglich, gut, weltweit, deutlich, knapp, künftig, bekannt, schnell, offensichtlich, gleichzeitig -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">268480</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">85619</feat><!-- werden, sein, können, haben, machen, geben, lassen, kommen, bringen, anbieten -->
