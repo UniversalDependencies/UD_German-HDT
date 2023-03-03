@@ -114,7 +114,7 @@
     <dep name="cop">25362</dep>
     <dep name="csubj">5387</dep>
     <dep name="csubj:pass">919</dep>
-    <dep name="det">480305</dep>
+    <dep name="det">480322</dep>
     <dep name="det:poss">11</dep>
     <dep name="discourse">25</dep>
     <dep name="expl">3114</dep>
@@ -126,7 +126,7 @@
     <dep name="nmod:poss">11</dep>
     <dep name="nsubj">221680</dep>
     <dep name="nsubj:pass">29983</dep>
-    <dep name="nummod">58781</dep>
+    <dep name="nummod">58764</dep>
     <dep name="obj">154570</dep>
     <dep name="obl">220418</dep>
     <dep name="obl:arg">6090</dep>
