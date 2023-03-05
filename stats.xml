@@ -10,7 +10,7 @@
     <dev><sentences>18434</sentences><tokens>319513</tokens><words>324848</words><fused>5335</fused></dev>
     <test><sentences>18459</sentences><tokens>326250</tokens><words>331663</words><fused>5413</fused></test>
   </size>
-  <lemmas unique="70237" /><!-- der, ., ,, in, ein, sein, und, ", von, zu, mit, für, werden, auf, haben -->
+  <lemmas unique="70236" /><!-- der, ., ,, in, ein, sein, und, ", von, zu, mit, für, werden, auf, haben -->
   <forms unique="187796" /><!-- ., ,, die, der, in, dem, und, ", von, zu, den, das, mit, für, auf -->
   <fusions unique="21" /><!-- im, am, zum, zur, vom, beim, ins, fürs, ans, übers, aufs, ums, durchs, z., unterm -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -20,12 +20,12 @@
     <tag name="ADV">194370</tag><!-- auch, noch, nur, so, aber, bereits, allerdings, mehr, damit, schon -->
     <tag name="AUX">153141</tag><!-- sein, werden, haben, können, sollen, wollen, müssen, dürfen, mögen -->
     <tag name="CCONJ">95478</tag><!-- und, als, oder, wie, sowie, aber, sondern, doch, denn, beziehungsweise -->
-    <tag name="DET">493845</tag><!-- der, ein, sein, dieser, alle, anderer, kein, viel, einige, jeder -->
+    <tag name="DET">493846</tag><!-- der, ein, sein, dieser, alle, anderer, kein, viel, einige, jeder -->
     <tag name="INTJ">74</tag><!-- bitte, ja, nein, Ha, Aha, AHA, Ach, Hey, Hü, Pah -->
     <tag name="NOUN">729104</tag><!-- unknown, Jahr, Unternehmen, Prozent, Million, Internet, Firma, Dollar, System, Markt -->
     <tag name="NUM">71231</tag><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <tag name="PART">35402</tag><!-- nicht, zu -->
-    <tag name="PRON">98292</tag><!-- der, sich, es, sie, man, er, wir, was, wer, ich -->
+    <tag name="PRON">98291</tag><!-- der, sich, es, sie, man, er, wir, was, wer, ich -->
     <tag name="PROPN">193940</tag><!-- Microsoft, Telekom, Deutschland, Intel, USA, AOL, ibm, c't, Europa, AMD -->
     <tag name="PUNCT">396266</tag><!-- ., ,, ", :, (, ), -, ;, ?, ! -->
     <tag name="SCONJ">29442</tag><!-- dass, um, wenn, ob, daß, da, während, weil, nachdem, als -->
@@ -60,7 +60,7 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">267739</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">568446</feat><!-- die, der, den, Prozent, sind, Millionen, sie, werden, Mark, haben -->
     <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">1335175</feat><!-- der, dem, die, das, des, den, eine, ein, ist, es -->
-    <feat name="Number[psor]" value="Plur" upos="DET">1119</feat><!-- unsere, unserer, unser, unseren, unserem, unseres, eure, euer, eurem, euren -->
+    <feat name="Number[psor]" value="Plur" upos="DET">1120</feat><!-- unsere, unserer, unser, unseren, unserem, unseres, eure, euer, eurer, eurem -->
     <feat name="Number[psor]" value="Sing" upos="DET">15540</feat><!-- seine, ihre, seiner, seinen, sein, ihren, ihrer, seinem, ihr, seines -->
     <feat name="NumType" value="Card" upos="DET,NUM">141269</feat><!-- eine, ein, einen, einer, einem, eines, zwei, 2000, drei, 2001 -->
     <feat name="NumType" value="Ord" upos="ADJ">4874</feat><!-- ersten, erste, erster, erstes, ersteres, erstem, Ersterer, erstere -->
@@ -92,7 +92,7 @@
     <feat name="Tense" value="Past" upos="AUX,VERB">49922</feat><!-- hatte, war, wurde, sagte, wurden, waren, hatten, konnte, gab, erklärte -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">216600</feat><!-- ist, hat, wird, soll, sind, sei, will, werden, kann, haben -->
     <feat name="Typo" value="Yes" upos="PRON">1</feat><!-- da -->
-    <feat name="Variant" value="Short" upos="ADJ,PRON">74295</feat><!-- möglich, gut, weltweit, deutlich, knapp, künftig, bekannt, schnell, offensichtlich, gleichzeitig -->
+    <feat name="Variant" value="Short" upos="ADJ">74290</feat><!-- möglich, gut, weltweit, deutlich, knapp, künftig, bekannt, schnell, offensichtlich, gleichzeitig -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">268480</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">85619</feat><!-- werden, sein, können, haben, machen, geben, lassen, kommen, bringen, anbieten -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">62615</feat><!-- worden, angekündigt, gewesen, gegeben, gemacht, geplant, erwartet, entwickelt, betroffen, gestellt -->
