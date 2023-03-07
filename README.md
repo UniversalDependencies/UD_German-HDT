@@ -132,6 +132,7 @@ annotations are licensed under a Creative Commons share-alike license.
 
 2023-05-15 v2.12
   * Dative arguments are oblique, hence they are obl:arg and not iobj.
+  * PRON vs. DET annotation made consistent across German UD treebanks.
 2021-09-08
   * Fixed segmentation of contracted preposition + article.
 UD 2.4: initial release
