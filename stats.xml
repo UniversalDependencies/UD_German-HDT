@@ -10,7 +10,7 @@
     <dev><sentences>18434</sentences><tokens>319513</tokens><words>324848</words><fused>5335</fused></dev>
     <test><sentences>18459</sentences><tokens>326250</tokens><words>331663</words><fused>5413</fused></test>
   </size>
-  <lemmas unique="70229" /><!-- der, ., ,, in, ein, sein, und, ", von, zu, mit, für, werden, auf, haben -->
+  <lemmas unique="70228" /><!-- der, ., ,, in, ein, sein, und, ", von, zu, mit, für, werden, auf, haben -->
   <forms unique="187796" /><!-- ., ,, die, der, in, dem, und, ", von, zu, den, das, mit, für, auf -->
   <fusions unique="21" /><!-- im, am, zum, zur, vom, beim, ins, fürs, ans, übers, aufs, ums, durchs, z., unterm -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -77,14 +77,14 @@
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">29991</feat><!-- diese, damit, dieser, diesem, dies, dazu, dieses, dafür, diesen, davon -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">28690</feat><!-- die, das, der, dem, denen, deren, dessen, den, derer, d. -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">21740</feat><!-- man, mehr, anderen, andere, viele, anderem, einige, etwas, einigen, viel -->
-    <feat name="PronType" value="Ind,Neg,Tot" upos="DET,PRON">2887</feat><!-- mehrere, weniger, mehreren, niemand, manche, jemand, keinerlei, wenig, meisten, manchen -->
+    <feat name="PronType" value="Ind,Neg,Tot" upos="DET,PRON">2881</feat><!-- mehrere, weniger, mehreren, niemand, manche, jemand, keinerlei, wenig, meisten, manchen -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">7404</feat><!-- wie, wer, was, wo, wann, warum, wobei, wonach, wodurch, womit -->
     <feat name="PronType" value="Int,Rel" upos="DET">815</feat><!-- welche, welchen, welcher, welches, welchem, welch -->
     <feat name="PronType" value="Neg" upos="DET,PRON">6227</feat><!-- keine, kein, nichts, keinen, keiner, keinem, keines, nix, keins -->
     <feat name="PronType" value="Prs" upos="DET,PRON">72571</feat><!-- sich, es, sie, er, wir, ihre, seine, seiner, seinen, ihrer -->
     <feat name="PronType" value="Rcp" upos="PRON">8</feat><!-- einander -->
     <feat name="PronType" value="Rel" upos="PRON">1043</feat><!-- was, der/das, die/der, watt -->
-    <feat name="PronType" value="Tot" upos="DET,PRON">11071</feat><!-- alle, allem, aller, allen, jeder, beide, alles, jede, jeden, jedem -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">11077</feat><!-- alle, allem, aller, allen, jeder, beide, alles, jede, jeden, jedem -->
     <feat name="PunctType" value="Brck" upos="PUNCT">78773</feat><!-- ", (, ), - -->
     <feat name="PunctType" value="Comm" upos="PUNCT">140408</feat><!-- , -->
     <feat name="PunctType" value="Peri" upos="PUNCT">177075</feat><!-- ., :, ;, ?, !, ..., !!!, !!, !!!!, .. -->
