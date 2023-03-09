@@ -40,7 +40,7 @@
     <feat name="AdpType" value="Prep" upos="ADP">362795</feat><!-- in, von, für, mit, auf, zu, an, bei, nach, über -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">62615</feat><!-- worden, angekündigt, gewesen, gegeben, gemacht, geplant, erwartet, entwickelt, betroffen, gestellt -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,X">264198</feat><!-- die, für, den, sich, das, auf, eine, einen, in, über -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">492903</feat><!-- dem, in, von, der, mit, zu, den, bei, an, nach -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">492901</feat><!-- dem, in, von, der, mit, zu, den, bei, an, nach -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">113427</feat><!-- der, des, eines, einer, Jahres, dieser, seiner, Unternehmens, deren, dieses -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">249715</feat><!-- die, der, das, es, ein, eine, man, sie, er, wir -->
     <feat name="ConjType" value="Comp" upos="CCONJ">20093</feat><!-- als, wie, denn -->
@@ -69,7 +69,7 @@
     <feat name="PartType" value="Vbp" upos="ADP">20484</feat><!-- an, aus, vor, ein, auf, ab, mit, bekannt, zurück, zu -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">11169</feat><!-- wir, ich, uns, haben, unsere, sind, werden, unserer, können, unser -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1092</feat><!-- siehe, Ihnen, du, Ihre, Ihr, dir, sprich, update, Ihren, Stimm -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">332285</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, sei, will -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">332179</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, sei, will -->
     <feat name="Polarity" value="Neg" upos="PART">18723</feat><!-- nicht -->
     <feat name="Polite" value="Form" upos="DET,PRON">120</feat><!-- Ihnen, Ihre, Ihr, Ihren, Ihrer, Ihrem -->
     <feat name="Poss" value="Yes" upos="DET,PRON">18371</feat><!-- ihre, seine, seiner, seinen, ihrer, ihren, sein, seinem, ihr, ihrem -->
@@ -77,10 +77,10 @@
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">29991</feat><!-- diese, damit, dieser, diesem, dies, dazu, dieses, dafür, diesen, davon -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">28690</feat><!-- die, das, der, dem, denen, deren, dessen, den, derer, d. -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">21995</feat><!-- man, mehr, anderen, andere, viele, anderem, einige, etwas, einigen, viel -->
-    <feat name="PronType" value="Ind,Neg,Tot" upos="DET,PRON">2699</feat><!-- mehrere, weniger, mehreren, niemand, manche, keinerlei, wenig, meisten, manchen, mancher -->
+    <feat name="PronType" value="Ind,Neg,Tot" upos="DET,PRON">2593</feat><!-- mehrere, weniger, mehreren, niemand, manche, wenig, meisten, manchen, mancher, mehrerer -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">7404</feat><!-- wie, wer, was, wo, wann, warum, wobei, wonach, wodurch, womit -->
     <feat name="PronType" value="Int,Rel" upos="DET">815</feat><!-- welche, welchen, welcher, welches, welchem, welch -->
-    <feat name="PronType" value="Neg" upos="DET,PRON">6227</feat><!-- keine, kein, nichts, keinen, keiner, keinem, keines, nix, keins -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">6333</feat><!-- keine, kein, nichts, keinen, keiner, keinerlei, keinem, keines, nix, keins -->
     <feat name="PronType" value="Prs" upos="DET,PRON">72571</feat><!-- sich, es, sie, er, wir, ihre, seine, seiner, seinen, ihrer -->
     <feat name="PronType" value="Rcp" upos="PRON">8</feat><!-- einander -->
     <feat name="PronType" value="Rel" upos="PRON">1043</feat><!-- was, der/das, die/der, watt -->
