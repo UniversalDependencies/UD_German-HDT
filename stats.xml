@@ -10,7 +10,7 @@
     <dev><sentences>18434</sentences><tokens>319513</tokens><words>324848</words><fused>5335</fused></dev>
     <test><sentences>18459</sentences><tokens>326250</tokens><words>331663</words><fused>5413</fused></test>
   </size>
-  <lemmas unique="70224" /><!-- der, ., ,, in, ein, sein, und, ", von, zu, mit, für, werden, auf, haben -->
+  <lemmas unique="70222" /><!-- der, ., ,, in, ein, sein, und, ", von, zu, mit, für, werden, auf, haben -->
   <forms unique="187796" /><!-- ., ,, die, der, in, dem, und, ", von, zu, den, das, mit, für, auf -->
   <fusions unique="21" /><!-- im, am, zum, zur, vom, beim, ins, fürs, ans, übers, aufs, ums, durchs, z., unterm -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -20,12 +20,12 @@
     <tag name="ADV">193382</tag><!-- auch, noch, nur, so, aber, bereits, allerdings, mehr, damit, schon -->
     <tag name="AUX">153141</tag><!-- sein, werden, haben, können, sollen, wollen, müssen, dürfen, mögen -->
     <tag name="CCONJ">95478</tag><!-- und, als, oder, wie, sowie, aber, sondern, doch, denn, beziehungsweise -->
-    <tag name="DET">496514</tag><!-- der, ein, sein, dieser, alle, anderer, kein, mehr, viel, einige -->
+    <tag name="DET">496530</tag><!-- der, ein, sein, dieser, alle, anderer, kein, mehr, viel, einige -->
     <tag name="INTJ">74</tag><!-- bitte, ja, nein, Ha, Aha, AHA, Ach, Hey, Hü, Pah -->
     <tag name="NOUN">729104</tag><!-- unknown, Jahr, Unternehmen, Prozent, Million, Internet, Firma, Dollar, System, Markt -->
     <tag name="NUM">71231</tag><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <tag name="PART">35402</tag><!-- nicht, zu -->
-    <tag name="PRON">95472</tag><!-- der, sich, es, sie, man, er, wir, was, wer, ich -->
+    <tag name="PRON">95456</tag><!-- der, sich, es, sie, man, er, wir, was, wer, ich -->
     <tag name="PROPN">193940</tag><!-- Microsoft, Telekom, Deutschland, Intel, USA, AOL, ibm, c't, Europa, AMD -->
     <tag name="PUNCT">396266</tag><!-- ., ,, ", :, (, ), -, ;, ?, ! -->
     <tag name="SCONJ">29442</tag><!-- dass, um, wenn, ob, daß, da, während, weil, nachdem, als -->
@@ -61,7 +61,7 @@
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">568446</feat><!-- die, der, den, Prozent, sind, Millionen, sie, werden, Mark, haben -->
     <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">1335124</feat><!-- der, dem, die, das, des, den, eine, ein, ist, es -->
     <feat name="Number[psor]" value="Plur" upos="DET">1120</feat><!-- unsere, unserer, unser, unseren, unserem, unseres, eure, euer, eurer, eurem -->
-    <feat name="Number[psor]" value="Sing" upos="DET">15540</feat><!-- seine, ihre, seiner, seinen, sein, ihren, ihrer, seinem, ihr, seines -->
+    <feat name="Number[psor]" value="Sing" upos="DET">15556</feat><!-- seine, ihre, seiner, seinen, sein, ihren, ihrer, seinem, ihr, seines -->
     <feat name="NumType" value="Card" upos="DET,NUM">141269</feat><!-- eine, ein, einen, einer, einem, eines, zwei, 2000, drei, 2001 -->
     <feat name="NumType" value="Ord" upos="ADJ">4874</feat><!-- ersten, erste, erster, erstes, ersteres, erstem, Ersterer, erstere -->
     <feat name="PartType" value="Inf" upos="PART">16679</feat><!-- zu -->
@@ -117,7 +117,7 @@
     <dep name="cop">25362</dep>
     <dep name="csubj">5387</dep>
     <dep name="csubj:pass">919</dep>
-    <dep name="det">485467</dep>
+    <dep name="det">485483</dep>
     <dep name="det:poss">11</dep>
     <dep name="discourse">25</dep>
     <dep name="expl">3114</dep>
@@ -125,7 +125,7 @@
     <dep name="flat">37877</dep>
     <dep name="flat:name">55475</dep>
     <dep name="mark">49678</dep>
-    <dep name="nmod">223673</dep>
+    <dep name="nmod">223657</dep>
     <dep name="nmod:poss">10</dep>
     <dep name="nsubj">221680</dep>
     <dep name="nsubj:pass">29983</dep>
