@@ -10,22 +10,22 @@
     <dev><sentences>18434</sentences><tokens>319513</tokens><words>324848</words><fused>5335</fused></dev>
     <test><sentences>18459</sentences><tokens>326250</tokens><words>331663</words><fused>5413</fused></test>
   </size>
-  <lemmas unique="70214" /><!-- der, ., ,, in, ein, und, sein, ", von, zu, mit, für, werden, auf, haben -->
+  <lemmas unique="70213" /><!-- der, ., ,, in, ein, und, sein, ", von, zu, mit, für, werden, auf, haben -->
   <forms unique="187796" /><!-- ., ,, die, der, in, dem, und, ", von, zu, den, das, mit, für, auf -->
   <fusions unique="21" /><!-- im, am, zum, zur, vom, beim, ins, fürs, ans, übers, aufs, ums, durchs, z., unterm -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">262607</tag><!-- neu, deutsch, erst, groß, weit, gut, null, eigen, hoch, schnell -->
     <tag name="ADP">385724</tag><!-- in, von, mit, für, auf, zu, an, bei, nach, über -->
-    <tag name="ADV">193382</tag><!-- auch, noch, nur, so, aber, bereits, allerdings, mehr, damit, schon -->
+    <tag name="ADV">193377</tag><!-- auch, noch, nur, so, aber, bereits, allerdings, mehr, damit, schon -->
     <tag name="AUX">153141</tag><!-- sein, werden, haben, können, sollen, wollen, müssen, dürfen, mögen -->
     <tag name="CCONJ">95478</tag><!-- und, als, oder, wie, sowie, aber, sondern, doch, denn, beziehungsweise -->
-    <tag name="DET">497639</tag><!-- der, ein, dieser, sein, ihr, alle, anderer, kein, mehr, viel -->
+    <tag name="DET">497658</tag><!-- der, ein, dieser, sein, ihr, alle, anderer, kein, mehr, viel -->
     <tag name="INTJ">74</tag><!-- bitte, ja, nein, Ha, Aha, AHA, Ach, Hey, Hü, Pah -->
     <tag name="NOUN">729104</tag><!-- unknown, Jahr, Unternehmen, Prozent, Million, Internet, Firma, Dollar, System, Markt -->
     <tag name="NUM">71231</tag><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <tag name="PART">35402</tag><!-- nicht, zu -->
-    <tag name="PRON">94870</tag><!-- der, sich, es, sie, man, er, wir, was, wer, ich -->
+    <tag name="PRON">94856</tag><!-- der, sich, es, sie, man, er, wir, was, wer, ich -->
     <tag name="PROPN">193940</tag><!-- Microsoft, Telekom, Deutschland, Intel, USA, AOL, ibm, c't, Europa, AMD -->
     <tag name="PUNCT">396266</tag><!-- ., ,, ", :, (, ), -, ;, ?, ! -->
     <tag name="SCONJ">29442</tag><!-- dass, um, wenn, ob, daß, da, während, weil, nachdem, als -->
@@ -79,7 +79,7 @@
     <feat name="PronType" value="Dem,Rel" upos="PRON">28690</feat><!-- die, das, der, dem, denen, deren, dessen, den, derer, d. -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">24636</feat><!-- man, mehr, anderen, andere, viele, anderem, einige, etwas, einigen, mehrere -->
     <feat name="PronType" value="Ind,Neg,Tot" upos="DET,PRON">12</feat><!-- zuviel, zuwenig, zweierlei -->
-    <feat name="PronType" value="Int" upos="ADV,DET,PRON">4988</feat><!-- wie, wo, wann, warum, wobei, wonach, wodurch, womit, inwieweit, weshalb -->
+    <feat name="PronType" value="Int" upos="ADV,DET">4988</feat><!-- wie, wo, wann, warum, wobei, wonach, wodurch, womit, inwieweit, weshalb -->
     <feat name="PronType" value="Int,Rel" upos="DET,PRON">4321</feat><!-- was, wer, welche, welchen, welcher, welches, welchem, wem, wen, welch -->
     <feat name="PronType" value="Neg" upos="DET,PRON">6609</feat><!-- keine, kein, nichts, keinen, niemand, keiner, keinerlei, keinem, keines, niemanden -->
     <feat name="PronType" value="Prs" upos="DET,PRON">72573</feat><!-- sich, es, sie, er, wir, ihre, seine, seiner, seinen, ihrer -->
