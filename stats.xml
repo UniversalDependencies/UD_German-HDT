@@ -10,7 +10,7 @@
     <dev><sentences>18434</sentences><tokens>319513</tokens><words>324848</words><fused>5335</fused></dev>
     <test><sentences>18459</sentences><tokens>326250</tokens><words>331663</words><fused>5413</fused></test>
   </size>
-  <lemmas unique="70221" /><!-- der, ., ,, in, ein, sein, und, ", von, zu, mit, für, werden, auf, haben -->
+  <lemmas unique="70220" /><!-- der, ., ,, in, ein, und, sein, ", von, zu, mit, für, werden, auf, haben -->
   <forms unique="187796" /><!-- ., ,, die, der, in, dem, und, ", von, zu, den, das, mit, für, auf -->
   <fusions unique="21" /><!-- im, am, zum, zur, vom, beim, ins, fürs, ans, übers, aufs, ums, durchs, z., unterm -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -20,12 +20,12 @@
     <tag name="ADV">193382</tag><!-- auch, noch, nur, so, aber, bereits, allerdings, mehr, damit, schon -->
     <tag name="AUX">153141</tag><!-- sein, werden, haben, können, sollen, wollen, müssen, dürfen, mögen -->
     <tag name="CCONJ">95478</tag><!-- und, als, oder, wie, sowie, aber, sondern, doch, denn, beziehungsweise -->
-    <tag name="DET">497068</tag><!-- der, ein, sein, dieser, alle, anderer, kein, mehr, viel, einige -->
+    <tag name="DET">497232</tag><!-- der, ein, dieser, sein, ihr, alle, anderer, kein, mehr, viel -->
     <tag name="INTJ">74</tag><!-- bitte, ja, nein, Ha, Aha, AHA, Ach, Hey, Hü, Pah -->
     <tag name="NOUN">729104</tag><!-- unknown, Jahr, Unternehmen, Prozent, Million, Internet, Firma, Dollar, System, Markt -->
     <tag name="NUM">71231</tag><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <tag name="PART">35402</tag><!-- nicht, zu -->
-    <tag name="PRON">95450</tag><!-- der, sich, es, sie, man, er, wir, was, wer, ich -->
+    <tag name="PRON">95286</tag><!-- der, sich, es, sie, man, er, wir, was, wer, ich -->
     <tag name="PROPN">193940</tag><!-- Microsoft, Telekom, Deutschland, Intel, USA, AOL, ibm, c't, Europa, AMD -->
     <tag name="PUNCT">396266</tag><!-- ., ,, ", :, (, ), -, ;, ?, ! -->
     <tag name="SCONJ">29442</tag><!-- dass, um, wenn, ob, daß, da, während, weil, nachdem, als -->
@@ -33,7 +33,7 @@
     <tag name="X">53695</tag><!-- of, internet, the, and, digital, mobile, media, for, OS, network -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="63">
+  <feats unique="64">
     <feat name="Abbr" value="Yes" upos="PRON">3</feat><!-- d. -->
     <feat name="AdpType" value="Circ" upos="ADP">1243</feat><!-- hinaus, aus, an, hin, her, hinweg, heraus, vorbei, zu, auf -->
     <feat name="AdpType" value="Post" upos="ADP">1190</feat><!-- zufolge, nach, lang, gegenüber, wegen, über, gemäß, entgegen, entlang, halber -->
@@ -54,22 +54,23 @@
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">408649</feat><!-- der, den, dem, des, einen, ein, einem, er, US-Dollar, Euro -->
     <feat name="Gender" value="Masc,Neut" upos="DET">47860</feat><!-- dem -->
     <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,PRON,PROPN,X">289164</feat><!-- das, es, ein, des, dem, Prozent, Internet, Unternehmen, Jahr, einem -->
-    <feat name="Gender[psor]" value="Masc,Neut" upos="DET">7759</feat><!-- seine, seiner, seinen, sein, seinem, seines -->
+    <feat name="Gender[psor]" value="Fem" upos="DET">6214</feat><!-- ihre, ihren, ihrer, ihr, ihrem, ihres -->
+    <feat name="Gender[psor]" value="Masc,Neut" upos="DET">9257</feat><!-- seine, seiner, seinen, sein, seinem, seines -->
     <feat name="Hyph" value="Yes" upos="NOUN">6087</feat><!-- informations-, internet-, Rück-, Audio-, computer-, Industrie-, Telekommunikations-, Telefon-, Hard-, Umsatz- -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">747</feat><!-- siehe, sprich, update, Stimm, Bleibt, lies, Mach, Mehr, schaut, vgl. -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">267739</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">568446</feat><!-- die, der, den, Prozent, sind, Millionen, sie, werden, Mark, haben -->
     <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">1335124</feat><!-- der, dem, die, das, des, den, eine, ein, ist, es -->
     <feat name="Number[psor]" value="Plur" upos="DET">1120</feat><!-- unsere, unserer, unser, unseren, unserem, unseres, eure, euer, eurer, eurem -->
-    <feat name="Number[psor]" value="Sing" upos="DET">15556</feat><!-- seine, ihre, seiner, seinen, sein, ihren, ihrer, seinem, ihr, seines -->
+    <feat name="Number[psor]" value="Sing" upos="DET">15720</feat><!-- seine, ihre, seiner, seinen, sein, ihren, ihrer, seinem, ihr, seines -->
     <feat name="NumType" value="Card" upos="DET,NUM">141269</feat><!-- eine, ein, einen, einer, einem, eines, zwei, 2000, drei, 2001 -->
     <feat name="NumType" value="Ord" upos="ADJ">4874</feat><!-- ersten, erste, erster, erstes, ersteres, erstem, Ersterer, erstere -->
     <feat name="PartType" value="Inf" upos="PART">16679</feat><!-- zu -->
     <feat name="PartType" value="Res" upos="INTJ">37</feat><!-- ja, nein -->
     <feat name="PartType" value="Vbp" upos="ADP">20484</feat><!-- an, aus, vor, ein, auf, ab, mit, bekannt, zurück, zu -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">11169</feat><!-- wir, ich, uns, haben, unsere, sind, werden, unserer, können, unser -->
-    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1092</feat><!-- siehe, Ihnen, du, Ihre, Ihr, dir, sprich, update, Ihren, Stimm -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">330345</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, sei, will -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1114</feat><!-- siehe, Ihnen, du, euch, Ihre, Ihr, dir, sprich, update, Ihren -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">330323</feat><!-- sich, ist, es, hat, wird, soll, sie, sind, sei, will -->
     <feat name="Polarity" value="Neg" upos="PART">18723</feat><!-- nicht -->
     <feat name="Polite" value="Form" upos="DET,PRON">120</feat><!-- Ihnen, Ihre, Ihr, Ihren, Ihrer, Ihrem -->
     <feat name="Poss" value="Yes" upos="DET,PRON">18371</feat><!-- ihre, seine, seiner, seinen, ihrer, ihren, sein, seinem, ihr, ihrem -->
