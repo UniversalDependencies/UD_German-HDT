@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_German-HDT:
-commit a8c975a9c32c0a913245192ab0853d17a71866b5
+commit 0a4c18baf7fac6cefa4e867ec87f1177823f27fe
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 10:31:00 2023 +0200
+Date:   Mon Nov 6 12:03:09 2023 +0100
 Size: counted 1000000 of 3455580 words (nodes).
 Size: min(0, log((N/1000)**2)) = 13.8155105579643.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -48,7 +48,7 @@ Exit code: 1
 [Line 626477 Sent hdt-s51164 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [2, 18] not subtyped as ':outer'.
 [Line 696463 Sent hdt-s54799 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [3, 6] not subtyped as ':outer'.
 [Line 750786 Sent hdt-s57574 Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [2, 11] not subtyped as ':outer'.
-...suppressing further errors regarding Syntax
+[Line 796202 Sent hdt-s59927 Node 26]: [L3 Syntax too-many-subjects] Multiple subjects [10, 25] not subtyped as ':outer'.
 Syntax errors: 10
 *** FAILED *** with 10 errors
 Exit code: 1
@@ -62,6 +62,7 @@ Exit code: 1
 [Line 430519 Sent hdt-s83275 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [3, 7] not subtyped as ':outer'.
 [Line 478453 Sent hdt-s85898 Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [2, 6] not subtyped as ':outer'.
 [Line 632572 Sent hdt-s93901 Node 23]: [L3 Syntax too-many-subjects] Multiple subjects [21, 22] not subtyped as ':outer'.
+[Line 681757 Sent hdt-s96366 Node 10]: [L3 Syntax too-many-subjects] Multiple subjects [11, 18] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 Syntax errors: 13
 *** FAILED *** with 13 errors
