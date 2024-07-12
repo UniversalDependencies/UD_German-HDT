@@ -54,6 +54,11 @@ The following people worked on the conversion:
  - Felix Hennig (initial grammar development, main TrUDucer development)
  - Arne Köhn (supervision)
 
+The following people are working on error correction:
+ - Verena Blaschke 
+ - Nina Böbel
+ - Leonie Weissweiler
+
 
 ## References
 
@@ -148,8 +153,8 @@ UPOS: converted from manual
 XPOS: automatic with corrections
 Features: converted from manual
 Relations: converted with corrections
-Contributors: Borges Völker, Emanuel; Hennig, Felix; Köhn, Arne; Wendt, Maximilan
+Contributors: Borges Völker, Emanuel; Hennig, Felix; Köhn, Arne; Wendt, Maximilan; Blaschke, Verena; Böbel, Nina; Weissweiler, Leonie
 Contributing: elsewhere
-Contact: arne@chark.eu
+Contact: nina.boebel@hhu.de
 ===============================================================================
 </pre>
