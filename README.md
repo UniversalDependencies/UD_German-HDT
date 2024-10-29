@@ -120,11 +120,20 @@ Heise gave permission to distribute the text for academic use; the annotations a
 
 # Changelog
 
+2024-11-15 v2.15
+  * Fixed ADP-DET phrases that had been erroneously treated as *det* rather than *obl/nmod* (like *unter anderem, vor allem, für alle, ...*)
+  * Fixed multiple-subject and multiple-object errors
+  * Fixed error of determiners with degree (e.g., *mehr*) -- now tagged as ADV (like similar constructions in English treebanks)
+  * Other small fixes
+  * Added construction annotations to MISC fields ([UCxn](https://github.com/LeonieWeissweiler/UCxn))
+
 2023-05-15 v2.12
   * Dative arguments are oblique, hence they are obl:arg and not iobj.
   * PRON vs. DET annotation made consistent across German UD treebanks.
+
 2021-09-08
   * Fixed segmentation of contracted preposition + article.
+
 UD 2.4: initial release
 
 <pre>
