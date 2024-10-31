@@ -124,6 +124,7 @@ Heise gave permission to distribute the text for academic use; the annotations a
   * Fixed ADP-DET phrases that had been erroneously treated as *det* rather than *obl/nmod* (like *unter anderem, vor allem, für alle, ...*)
   * Fixed multiple-subject and multiple-object errors
   * Fixed error of determiners with degree (e.g., *mehr*) -- now tagged as ADV (like similar constructions in English treebanks)
+  * "ein" when unambiguously used as a numeral is now NUM
   * Other small fixes
   * Added construction annotations to MISC fields ([UCxn](https://github.com/LeonieWeissweiler/UCxn))
 
