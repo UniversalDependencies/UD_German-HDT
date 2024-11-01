@@ -126,7 +126,9 @@ Heise gave permission to distribute the text for academic use; the annotations a
   * Fixed error of determiners with degree (e.g., *mehr*) -- now tagged as ADV (like similar constructions in English treebanks)
   * "ein" when unambiguously used as a numeral is now NUM
   * Other small fixes
-  * Added construction annotations to MISC fields ([UCxn](https://github.com/LeonieWeissweiler/UCxn))
+  * Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
+   * This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements.
+   * The UCxn v1 notation and categories are documented [here](https://github.com/LeonieWeissweiler/UCxn/blob/main/docs/UCxn-v1.pdf).
 
 2023-05-15 v2.12
   * Dative arguments are oblique, hence they are obl:arg and not iobj.
