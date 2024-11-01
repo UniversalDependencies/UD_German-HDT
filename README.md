@@ -121,21 +121,21 @@ Heise gave permission to distribute the text for academic use; the annotations a
 # Changelog
 
 2024-11-15 v2.15
-  * Fixed ADP-DET phrases that had been erroneously treated as *det* rather than *obl/nmod* (like *unter anderem, vor allem, für alle, ...*)
-  * Fixed multiple-subject and multiple-object errors
-  * Fixed error of determiners with degree (e.g., *mehr*) -- now tagged as ADV (like similar constructions in English treebanks)
-  * "ein" when unambiguously used as a numeral is now NUM
-  * Other small fixes
-  * Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
-   * This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements.
-   * The UCxn v1 notation and categories are documented [here](https://github.com/LeonieWeissweiler/UCxn/blob/main/docs/UCxn-v1.pdf).
+* Fixed ADP-DET phrases that had been erroneously treated as *det* rather than *obl/nmod* (like *unter anderem, vor allem, für alle, ...*)
+* Fixed multiple-subject and multiple-object errors
+* Fixed error of determiners with degree (e.g., *mehr*) -- now tagged as ADV (like similar constructions in English treebanks)
+* "ein" when unambiguously used as a numeral is now NUM
+* Other small fixes
+* Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
+    * This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements.
+    * The UCxn v1 notation and categories are documented [here](https://github.com/LeonieWeissweiler/UCxn/blob/main/docs/UCxn-v1.pdf).
 
 2023-05-15 v2.12
-  * Dative arguments are oblique, hence they are obl:arg and not iobj.
-  * PRON vs. DET annotation made consistent across German UD treebanks.
+* Dative arguments are oblique, hence they are obl:arg and not iobj.
+* PRON vs. DET annotation made consistent across German UD treebanks.
 
 2021-09-08
-  * Fixed segmentation of contracted preposition + article.
+* Fixed segmentation of contracted preposition + article.
 
 UD 2.4: initial release
 
