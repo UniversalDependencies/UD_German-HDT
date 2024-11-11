@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_German-HDT:
-commit 0a4c18baf7fac6cefa4e867ec87f1177823f27fe
+commit 896a2fa5dd7b66abdf5f26a134d008d7713928ba
+Merge: 938fa19 899f4ab
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:03:09 2023 +0100
 Size: counted 1000000 of 3455580 words (nodes).
 Size: min(0, log((N/1000)**2)) = 13.8155105579643.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,87 +15,36 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 3089425 out of 3455580 total words have one or more features.
+Features: 3089427 out of 3455580 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 30 out of 37 found in the corpus.
+Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL       8412
-Udapi: found 8412 bugs.
+               TOTAL       4763
+Udapi: found 4763 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 3455580 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-HDT/de_hdt-ud-dev.conllu
-[Line 2218 Sent hdt-s107 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [24, 30] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 315786 Sent hdt-s108256 Node 22]: [L3 Syntax too-many-subjects] Multiple subjects [1, 10] not subtyped as ':outer'.
-Syntax errors: 2
-*** FAILED *** with 2 errors
-Exit code: 1
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-HDT/de_hdt-ud-test.conllu
-[Line 145536 Sent hdt-s17192 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [3, 6] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 217586 Sent hdt-s112825 Node 2]: [L3 Syntax too-many-subjects] Multiple subjects [1, 24] not subtyped as ':outer'.
-[Line 291399 Sent hdt-s116867 Node 23]: [L3 Syntax too-many-subjects] Multiple subjects [3, 14] not subtyped as ':outer'.
-[Line 374461 Sent hdt-s121038 Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [6, 22] not subtyped as ':outer'.
-Syntax errors: 4
-*** FAILED *** with 4 errors
-Exit code: 1
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-HDT/de_hdt-ud-train-a-1.conllu
-[Line 244069 Sent hdt-s32177 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [1, 5] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 312213 Sent hdt-s35374 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [2, 14] not subtyped as ':outer'.
-[Line 378762 Sent hdt-s38515 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [19, 39] not subtyped as ':outer'.
-[Line 502146 Sent hdt-s44676 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [7, 9] not subtyped as ':outer'.
-[Line 564243 Sent hdt-s47956 Node 19]: [L3 Syntax too-many-subjects] Multiple subjects [15, 18] not subtyped as ':outer'.
-[Line 582297 Sent hdt-s48891 Node 24]: [L3 Syntax too-many-subjects] Multiple subjects [17, 20] not subtyped as ':outer'.
-[Line 626477 Sent hdt-s51164 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [2, 18] not subtyped as ':outer'.
-[Line 696463 Sent hdt-s54799 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [3, 6] not subtyped as ':outer'.
-[Line 750786 Sent hdt-s57574 Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [2, 11] not subtyped as ':outer'.
-[Line 796202 Sent hdt-s59927 Node 26]: [L3 Syntax too-many-subjects] Multiple subjects [10, 25] not subtyped as ':outer'.
-Syntax errors: 10
-*** FAILED *** with 10 errors
-Exit code: 1
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-HDT/de_hdt-ud-train-a-2.conllu
-[Line 25564 Sent hdt-s62328 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [2, 8] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 164969 Sent hdt-s69413 Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [8, 14] not subtyped as ':outer'.
-[Line 202741 Sent hdt-s71297 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [15, 16] not subtyped as ':outer'.
-[Line 207129 Sent hdt-s71524 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [22, 32] not subtyped as ':outer'.
-[Line 351503 Sent hdt-s78989 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [5, 14] not subtyped as ':outer'.
-[Line 409284 Sent hdt-s82122 Node 31]: [L3 Syntax too-many-subjects] Multiple subjects [22, 27] not subtyped as ':outer'.
-[Line 430519 Sent hdt-s83275 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [3, 7] not subtyped as ':outer'.
-[Line 478453 Sent hdt-s85898 Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [2, 6] not subtyped as ':outer'.
-[Line 632572 Sent hdt-s93901 Node 23]: [L3 Syntax too-many-subjects] Multiple subjects [21, 22] not subtyped as ':outer'.
-[Line 681757 Sent hdt-s96366 Node 10]: [L3 Syntax too-many-subjects] Multiple subjects [11, 18] not subtyped as ':outer'.
-...suppressing further errors regarding Syntax
-Syntax errors: 13
-*** FAILED *** with 13 errors
-Exit code: 1
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-HDT/de_hdt-ud-train-b-1.conllu
-[Line 24389 Sent hdt-s123146 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [1, 11] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 293954 Sent hdt-s136458 Node 51]: [L3 Syntax too-many-subjects] Multiple subjects [29, 33] not subtyped as ':outer'.
-[Line 464401 Sent hdt-s144985 Node 10]: [L3 Syntax too-many-subjects] Multiple subjects [2, 18] not subtyped as ':outer'.
-[Line 547466 Sent hdt-s149071 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [10, 13] not subtyped as ':outer'.
-[Line 610825 Sent hdt-s152190 Node 12]: [L3 Syntax too-many-subjects] Multiple subjects [2, 9] not subtyped as ':outer'.
-[Line 642939 Sent hdt-s153762 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [1, 6] not subtyped as ':outer'.
-Syntax errors: 6
-*** FAILED *** with 6 errors
-Exit code: 1
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-HDT/de_hdt-ud-train-b-2.conllu
-[Line 92571 Sent hdt-s169059 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [2, 21] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 132543 Sent hdt-s171037 Node 10]: [L3 Syntax too-many-subjects] Multiple subjects [1, 19] not subtyped as ':outer'.
-[Line 132552 Sent hdt-s171037 Node 19]: [L3 Syntax too-many-subjects] Multiple subjects [14, 16] not subtyped as ':outer'.
-[Line 557001 Sent hdt-s193327 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [2, 20] not subtyped as ':outer'.
-[Line 583202 Sent hdt-s194535 Node 17]: [L3 Syntax too-many-subjects] Multiple subjects [2, 11] not subtyped as ':outer'.
-[Line 736219 Sent hdt-s202074 Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [2, 6] not subtyped as ':outer'.
-Syntax errors: 6
-*** FAILED *** with 6 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=1) = 0.256410256410256
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.975656763842828) = 0.300202081182409
-(weight=0.0769230769230769) * (score{udeprels}=0.72972972972973) = 0.0561330561330561
-(TOTAL score=0.858597580754379) * (availability=1) * (validity=0.01) = 0.00858597580754379
-STARS = 0
-UD_German-HDT	0.00858597580754379	0
+(weight=0.307692307692308) * (score{udapi}=0.986216496217712) = 0.30345122960545
+(weight=0.0769230769230769) * (score{udeprels}=0.778378378378378) = 0.0598752598752599
+(TOTAL score=0.865588932919624) * (availability=1) * (validity=1) = 0.865588932919624
+STARS = 4.5
+UD_German-HDT	0.865588932919624	4.5
