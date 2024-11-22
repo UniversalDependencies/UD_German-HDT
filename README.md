@@ -54,11 +54,18 @@ If you use this treebank, please cite the following paper, describing the conver
 The TrUDucer paper describing the formalism behind the conversion:
 
 ```
-Hennig, Felix, & Köhn, Arne (2017). Dependency tree transformation
-with tree transducers. In Proceedings of the NoDaLiDa 2017 Workshop on
-Universal Dependencies (UDW 2017) (pp. 58–66). Gothenburg, Sweden:
-Association for Computational Linguistics.  url:
-http://www.aclweb.org/anthology/W17-0407
+@inproceedings{hennig-kohn-2017-dependency,
+    title = "Dependency Tree Transformation with Tree Transducers",
+    author = {Hennig, Felix  and K{\"o}hn, Arne},
+    editor = "de Marneffe, Marie-Catherine  and Nivre, Joakim  and Schuster, Sebastian",
+    booktitle = "Proceedings of the {N}o{D}a{L}i{D}a 2017 Workshop on Universal Dependencies ({UDW} 2017)",
+    month = may,
+    year = "2017",
+    address = "Gothenburg, Sweden",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W17-0407",
+    pages = "58--66",
+}
 ```
 
 The paper describing the HDT:
