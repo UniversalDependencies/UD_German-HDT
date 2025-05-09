@@ -10,19 +10,19 @@
     <dev><sentences>18434</sentences><tokens>319513</tokens><words>324848</words><fused>5335</fused></dev>
     <test><sentences>18459</sentences><tokens>326250</tokens><words>331663</words><fused>5413</fused></test>
   </size>
-  <lemmas unique="70212" /><!-- der, ., ,, in, ein, und, sein, ", von, zu, mit, für, werden, auf, haben -->
+  <lemmas unique="144998" /><!-- der, ., ,, in, ein, und, sein, ", von, zu, mit, für, werden, auf, haben -->
   <forms unique="187796" /><!-- ., ,, die, der, in, dem, und, ", von, zu, den, das, mit, für, auf -->
   <fusions unique="21" /><!-- im, am, zum, zur, vom, beim, ins, fürs, ans, übers, aufs, ums, durchs, z., unterm -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">262611</tag><!-- neu, deutsch, erst, groß, weit, gut, null, eigen, hoch, schnell -->
-    <tag name="ADP">385724</tag><!-- in, von, mit, für, auf, zu, an, bei, nach, über -->
-    <tag name="ADV">196594</tag><!-- auch, noch, nur, so, mehr, aber, bereits, allerdings, damit, schon -->
+    <tag name="ADP">385725</tag><!-- in, von, mit, für, auf, zu, an, bei, nach, über -->
+    <tag name="ADV">196593</tag><!-- auch, noch, nur, so, mehr, aber, bereits, allerdings, damit, schon -->
     <tag name="AUX">153141</tag><!-- sein, werden, haben, können, sollen, wollen, müssen, dürfen, mögen -->
     <tag name="CCONJ">95477</tag><!-- und, als, oder, wie, sowie, aber, sondern, doch, denn, beziehungsweise -->
     <tag name="DET">494367</tag><!-- der, ein, dieser, sein, ihr, alle, anderer, kein, viel, einige -->
     <tag name="INTJ">74</tag><!-- bitte, ja, nein, Ha, Aha, AHA, Ach, Hey, Hü, Pah -->
-    <tag name="NOUN">729101</tag><!-- unknown, Jahr, Unternehmen, Prozent, Million, Internet, Firma, Dollar, System, Markt -->
+    <tag name="NOUN">729101</tag><!-- unknown, Jahr, Prozent, Million, Internet, Unternehmen, Mark, Firma, Milliarde, US-Dollar -->
     <tag name="NUM">71308</tag><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <tag name="PART">35402</tag><!-- nicht, zu -->
     <tag name="PRON">94847</tag><!-- der, sich, es, sie, man, er, wir, was, wer, ich -->
@@ -33,7 +33,7 @@
     <tag name="X">53691</tag><!-- of, internet, the, and, digital, mobile, media, for, OS, network -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="63">
+  <feats unique="65">
     <feat name="Abbr" value="Yes" upos="PRON">3</feat><!-- d. -->
     <feat name="AdpType" value="Circ" upos="ADP">1243</feat><!-- hinaus, aus, an, hin, her, hinweg, heraus, vorbei, zu, auf -->
     <feat name="AdpType" value="Post" upos="ADP">1190</feat><!-- zufolge, nach, lang, gegenüber, wegen, über, gemäß, entgegen, entlang, halber -->
@@ -49,6 +49,8 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">21724</feat><!-- mehr, weitere, weiter, weniger, weiteren, mehrere, eher, später, besser, schneller -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV,DET">233534</feat><!-- so, neue, neuen, ersten, deutschen, deutsche, eigenen, erste, vergangenen, möglich -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV,DET">8631</feat><!-- nächsten, letzten, meisten, größten, größte, nächste, möglichst, letzte, meist, wichtigsten -->
+    <feat name="ExtPos" value="ADV" upos="ADP,DET">63</feat><!-- um, an, ein -->
+    <feat name="ExtPos" value="SCONJ" upos="SCONJ">1</feat><!-- als -->
     <feat name="Foreign" value="Yes" upos="DET,PRON,PUNCT,X">53405</feat><!-- of, internet, the, and, digital, mobile, media, for, OS, network -->
     <feat name="Gender" value="Fem" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN">490560</feat><!-- die, der, eine, einer, Millionen, Mark, Milliarden, Telekom, Firma, sie -->
     <feat name="Gender" value="Masc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN">408652</feat><!-- der, den, dem, des, einen, ein, einem, er, US-Dollar, Euro -->
@@ -104,12 +106,12 @@
     <dep name="acl:relcl">1</dep>
     <dep name="advcl">17870</dep>
     <dep name="advcl:relcl">1</dep>
-    <dep name="advmod">263132</dep>
+    <dep name="advmod">263153</dep>
     <dep name="amod">182339</dep>
     <dep name="appos">45708</dep>
     <dep name="aux">84727</dep>
     <dep name="aux:pass">32895</dep>
-    <dep name="case">381104</dep>
+    <dep name="case">381083</dep>
     <dep name="cc">75304</dep>
     <dep name="ccomp">17424</dep>
     <dep name="compound">1</dep>
@@ -119,22 +121,22 @@
     <dep name="csubj">5370</dep>
     <dep name="csubj:pass">919</dep>
     <dep name="dep">1</dep>
-    <dep name="det">480431</dep>
+    <dep name="det">480417</dep>
     <dep name="det:poss">11</dep>
     <dep name="discourse">25</dep>
     <dep name="expl">3123</dep>
     <dep name="expl:pv">10469</dep>
-    <dep name="fixed">48</dep>
+    <dep name="fixed">70</dep>
     <dep name="flat">37877</dep>
-    <dep name="flat:name">55472</dep>
+    <dep name="flat:name">55471</dep>
     <dep name="mark">49681</dep>
-    <dep name="nmod">226082</dep>
+    <dep name="nmod">226083</dep>
     <dep name="nmod:poss">10</dep>
     <dep name="nsubj">221650</dep>
     <dep name="nsubj:pass">29979</dep>
     <dep name="nummod">58793</dep>
     <dep name="obj">150730</dep>
-    <dep name="obl">220514</dep>
+    <dep name="obl">220506</dep>
     <dep name="obl:arg">9933</dep>
     <dep name="orphan">9</dep>
     <dep name="parataxis">16073</dep>
