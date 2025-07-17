@@ -127,6 +127,9 @@ Heise gave permission to distribute the text for academic use; the annotations a
 
 # Changelog
 
+2025-11-15 v2.17
+* More lemma updates
+
 2025-05-15 v2.16
 * Lemmas for compound words now include more than just the headword (script by Peter Kolb)
 
