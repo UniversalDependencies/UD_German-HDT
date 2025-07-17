@@ -127,6 +127,9 @@ Heise gave permission to distribute the text for academic use; the annotations a
 
 # Changelog
 
+2025-05-15 v2.16
+* Lemmas for compound words now include more than just the headword (script by Peter Kolb)
+
 2024-11-15 v2.15
 * Fixed ADP-DET phrases that had been erroneously treated as *det* rather than *obl/nmod* (like *unter anderem, vor allem, für alle, ...*)
 * Fixed multiple-subject and multiple-object errors
