@@ -157,6 +157,7 @@ UD 2.4: initial release
 Data available since: UD v2.4
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news nonfiction web
 Lemmas: converted from manual
 UPOS: converted from manual
