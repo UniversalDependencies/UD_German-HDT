@@ -129,6 +129,8 @@ Heise gave permission to distribute the text for academic use; the annotations a
 
 2025-11-15 v2.17
 * More lemma updates
+* Fixed too-many-objects errors (mostly: obl:arg for dative/genitive objects, iobj for double accusative verbs [#1162](https://github.com/UniversalDependencies/docs/issues/1162), advmod for pronominal adverbs [#1173](https://github.com/UniversalDependencies/docs/issues/1173))
+* Additional small fixes
 
 2025-05-15 v2.16
 * Lemmas for compound words now include more than just the headword (script by Peter Kolb)
