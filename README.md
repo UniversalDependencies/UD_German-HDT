@@ -127,6 +127,14 @@ Heise gave permission to distribute the text for academic use; the annotations a
 
 # Changelog
 
+2025-11-15 v2.17
+* More lemma updates
+* Fixed too-many-objects errors (mostly: obl:arg for dative/genitive objects, iobj for double accusative verbs [#1162](https://github.com/UniversalDependencies/docs/issues/1162), advmod for pronominal adverbs [#1173](https://github.com/UniversalDependencies/docs/issues/1173))
+* Additional small fixes
+
+2025-05-15 v2.16
+* Lemmas for compound words now include more than just the headword (script by Peter Kolb)
+
 2024-11-15 v2.15
 * Fixed ADP-DET phrases that had been erroneously treated as *det* rather than *obl/nmod* (like *unter anderem, vor allem, für alle, ...*)
 * Fixed multiple-subject and multiple-object errors
@@ -151,6 +159,7 @@ UD 2.4: initial release
 Data available since: UD v2.4
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news nonfiction web
 Lemmas: converted from manual
 UPOS: converted from manual
