@@ -59,13 +59,13 @@
     <feat name="Gender[psor]" value="Fem" upos="DET">6213</feat><!-- ihre, ihren, ihrer, ihr, ihrem, ihres -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">9257</feat><!-- seine, seiner, seinen, sein, seinem, seines -->
     <feat name="Hyph" value="Yes" upos="NOUN">6087</feat><!-- informations-, internet-, Rück-, Audio-, computer-, Industrie-, Telekommunikations-, Telefon-, Hard-, Umsatz- -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">747</feat><!-- siehe, sprich, update, Stimm, Bleibt, lies, Mach, Mehr, schaut, vgl. -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">267739</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">749</feat><!-- siehe, sprich, update, Stimm, Bleibt, lies, Mach, Mehr, schaut, vgl. -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">267737</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
     <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">568447</feat><!-- die, der, den, Prozent, sind, Millionen, sie, werden, Mark, haben -->
     <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">1335121</feat><!-- der, dem, die, das, des, den, eine, ein, ist, es -->
     <feat name="Number[psor]" value="Plur" upos="DET">1165</feat><!-- unsere, unserer, unser, unseren, unserem, unseres, eure, euer, eurer, unsereins -->
     <feat name="Number[psor]" value="Sing" upos="DET">15719</feat><!-- seine, ihre, seiner, seinen, sein, ihren, ihrer, seinem, ihr, seines -->
-    <feat name="NumType" value="Card" upos="DET,NUM">141268</feat><!-- eine, ein, einen, einer, einem, eines, zwei, 2000, drei, 2001 -->
+    <feat name="NumType" value="Card" upos="DET,NUM">141269</feat><!-- eine, ein, einen, einer, einem, eines, zwei, 2000, drei, 2001 -->
     <feat name="NumType" value="Ord" upos="ADJ">4874</feat><!-- ersten, erste, erster, erstes, ersteres, erstem, Ersterer, erstere -->
     <feat name="PartType" value="Inf" upos="PART">16679</feat><!-- zu -->
     <feat name="PartType" value="Res" upos="INTJ">37</feat><!-- ja, nein -->
@@ -95,15 +95,15 @@
     <feat name="Tense" value="Pres" upos="AUX,VERB">216600</feat><!-- ist, hat, wird, soll, sind, sei, will, werden, kann, haben -->
     <feat name="Typo" value="Yes" upos="AUX,DET,NOUN,PRON,SCONJ,VERB">21</feat><!-- anderen, das, allen, Fallen, Falls, andere, ausprechen, da, will. -->
     <feat name="Variant" value="Short" upos="ADJ">75390</feat><!-- möglich, gut, ganz, weltweit, deutlich, knapp, künftig, bekannt, schnell, offensichtlich -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">268480</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">85620</feat><!-- werden, sein, können, haben, machen, geben, lassen, kommen, bringen, anbieten -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">268484</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">85625</feat><!-- werden, sein, können, haben, machen, geben, lassen, kommen, bringen, anbieten -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">62615</feat><!-- worden, angekündigt, gewesen, gegeben, gemacht, geplant, erwartet, entwickelt, betroffen, gestellt -->
     <feat name="VerbType" value="Mod" upos="AUX">48361</feat><!-- soll, will, können, kann, sollen, wollen, müssen, muss, könnte, konnte -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="44">
-    <dep name="acl">28661</dep>
-    <dep name="acl:relcl">1</dep>
+    <dep name="acl">3892</dep>
+    <dep name="acl:relcl">24770</dep>
     <dep name="advcl">18414</dep>
     <dep name="advcl:relcl">1</dep>
     <dep name="advmod">263663</dep>
@@ -136,8 +136,8 @@
     <dep name="nsubj">221653</dep>
     <dep name="nsubj:pass">29979</dep>
     <dep name="nummod">58794</dep>
-    <dep name="obj">139236</dep>
-    <dep name="obl">227092</dep>
+    <dep name="obj">139210</dep>
+    <dep name="obl">227118</dep>
     <dep name="obl:arg">10186</dep>
     <dep name="orphan">10</dep>
     <dep name="parataxis">16073</dep>

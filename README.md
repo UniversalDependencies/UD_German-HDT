@@ -127,6 +127,9 @@ Heise gave permission to distribute the text for academic use; the annotations a
 
 # Changelog
 
+2026-05-15 v2.18
+  * Distinguished acl:relcl from acl based on the presence of PronType=Rel.
+
 2025-11-15 v2.17
 * More lemma updates
 * Fixed too-many-objects errors (mostly: obl:arg for dative/genitive objects, iobj for double accusative verbs [#1162](https://github.com/UniversalDependencies/docs/issues/1162), advmod for pronominal adverbs [#1173](https://github.com/UniversalDependencies/docs/issues/1173))
