@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_German-HDT:
-commit 798d92d718eb423b42c09ec64a49d33146aa19ce
-Merge: a314241 40775e1
+commit acb944bb949404d5d5f1b544d8fcccc516eb4162
+Merge: 3eee7c2 7725af2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(?:(de_hdt)-ud-train-[ab]-[12]\.conllu|(.+)-ud-(dev|test)\.conllu)'
 Language-treebank code (from CoNLL-U file name) = 'de_hdt'
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 3089429 out of 3455580 total words have one or more features.
+Features: 3101885 out of 3455580 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
