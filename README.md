@@ -27,6 +27,7 @@ The following people worked on the conversion:
 The following people are working on error correction:
  - Verena Blaschke 
  - Nina Böbel
+ - Jacob Lee Suchardt
  - Leonie Weissweiler
 
 
@@ -129,6 +130,9 @@ Heise gave permission to distribute the text for academic use; the annotations a
 
 2026-05-15 v2.18
   * Distinguished acl:relcl from acl based on the presence of PronType=Rel.
+  * automatically propagated Case, Number, and Person annotations within noun phrases
+  * fixed missing VerbType and NumForm bugs found by udapi
+  * changed prepositional phrases from obj to obl
 
 2025-11-15 v2.17
 * More lemma updates
@@ -169,7 +173,7 @@ UPOS: converted from manual
 XPOS: automatic with corrections
 Features: converted from manual
 Relations: converted with corrections
-Contributors: Borges Völker, Emanuel; Hennig, Felix; Köhn, Arne; Wendt, Maximilan; Blaschke, Verena; Böbel, Nina; Weissweiler, Leonie
+Contributors: Borges Völker, Emanuel; Hennig, Felix; Köhn, Arne; Wendt, Maximilan; Blaschke, Verena; Böbel, Nina; Suchardt, Jacob Lee; Weissweiler, Leonie
 Contributing: here
 Contact: nina.boebel@hhu.de
 ===============================================================================
