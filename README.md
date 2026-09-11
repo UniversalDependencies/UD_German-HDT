@@ -25,6 +25,7 @@ The following people worked on the conversion:
  - Arne Köhn (supervision)
 
 The following people are working on error correction:
+ - Marc Bachmann
  - Verena Blaschke 
  - Nina Böbel
  - Jacob Lee Suchardt
@@ -128,6 +129,11 @@ Heise gave permission to distribute the text for academic use; the annotations a
 
 # Changelog
 
+2026-11-15 v2.19
+  * Annotated 1160 misspellings with Typo=Yes, CorrectForm and the intended word's lemma
+  * Filled 6214 missing NOUN and VERB lemmas and corrected 48 others
+  * Separated an author sigil from the sentence it ended, giving that sentence its full stop
+
 2026-05-15 v2.18
   * Distinguished acl:relcl from acl based on the presence of PronType=Rel.
   * automatically propagated Case, Number, and Person annotations within noun phrases
@@ -173,7 +179,7 @@ UPOS: converted from manual
 XPOS: automatic with corrections
 Features: converted from manual
 Relations: converted with corrections
-Contributors: Borges Völker, Emanuel; Hennig, Felix; Köhn, Arne; Wendt, Maximilan; Blaschke, Verena; Böbel, Nina; Suchardt, Jacob Lee; Weissweiler, Leonie
+Contributors: Borges Völker, Emanuel; Hennig, Felix; Köhn, Arne; Wendt, Maximilan; Bachmann, Marc; Blaschke, Verena; Böbel, Nina; Suchardt, Jacob Lee; Weissweiler, Leonie
 Contributing: here
 Contact: nina.boebel@hhu.de
 ===============================================================================
