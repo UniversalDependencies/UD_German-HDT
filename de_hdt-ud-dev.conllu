@@ -7248,7 +7248,7 @@
 32	zu	zu	ADP	APPR	AdpType=Prep|Case=Dat	34	case	_	_
 33	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	34	det	_	_
 34	Straftat	Straftat	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	nmod	_	_
-35	nachzuweisen	unknown	VERB	VVINF	VerbForm=Inf	21	ccomp	_	_
+35	nachzuweisen	nachweisen	VERB	VVINF	VerbForm=Inf	21	ccomp	_	_
 36	sei	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
 37	.	.	PUNCT	$.	PunctType=Peri	7	punct	_	_
 
@@ -9842,7 +9842,7 @@
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Monat	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	_
 11	für	für	ADP	APPR	AdpType=Prep	12	case	_	_
-12	gerechtfertigt	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	13	xcomp	_	_
+12	gerechtfertigt	rechtfertigen	VERB	VVPP	Aspect=Perf|VerbForm=Part	13	xcomp	_	_
 13	halten	halten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
 14	,	,	PUNCT	$,	PunctType=Comm	13	punct	_	_
 15	fordert	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -19596,7 +19596,7 @@
 23	an	an	ADP	APPR	AdpType=Prep|Case=Dat	25	case	_	_
 24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
 25	Dauersurfen	Dauersurfen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	22	nmod	_	_
-26	vergälen	unknown	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	15	ccomp	_	_
+26	vergälen	vergällen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Typo=Yes|VerbForm=Fin	15	ccomp	_	CorrectForm=vergällen
 27	.	.	PUNCT	$.	PunctType=Peri	2	punct	_	_
 
 # sent_id = hdt-s979
@@ -22367,7 +22367,7 @@
 6	von	von	ADP	APPR	AdpType=Prep|Case=Dat	7	case	_	_
 7	ChooseYourMail	Mail	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
 8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
-9	weitergegen	unknown	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	weitergegen	weitergeben	VERB	VVINF	VerbForm=Inf	0	root	_	CorrectForm=weitergegeben
 10	,	,	PUNCT	$,	PunctType=Comm	12	punct	_	_
 11	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	_
 12	versende	versenden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
@@ -32225,7 +32225,7 @@
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
 2	sei	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
-4	quersubventioniert	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	_
+4	quersubventioniert	quersubventionieren	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	_
 5	,	,	PUNCT	$,	PunctType=Comm	7	punct	_	_
 6	so	so	ADV	ADV	_	7	advmod	_	_
 7	Gordon	Gordon	PROPN	NE	Number=Sing	4	parataxis	_	_
@@ -33001,7 +33001,7 @@
 # sent_id = hdt-s1657
 # text = " Überfragt " der Kunde das Regal , so soll es automatisch eine Telefonverbindung zu einem Beratungszentrum mit menschlichen Mitarbeitern aufbauen .
 1	"	"	PUNCT	$(	PunctType=Brck	2	punct	_	_
-2	Überfragt	unknown	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	21	xcomp	_	_
+2	Überfragt	überfragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	21	xcomp	_	_
 3	"	"	PUNCT	$(	PunctType=Brck	2	punct	_	_
 4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Kunde	Kunde	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -40021,7 +40021,7 @@
 11	bis	bis	ADP	APPR	AdpType=Prep	13	case	_	_
 12	15	15	NUM	CARD	Number=Plur|NumType=Card	13	nummod	_	_
 13	Mark	Mark	NOUN	NN	Gender=Fem|Number=Plur	10	nmod	_	_
-14	gerechtfertigt	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	_
+14	gerechtfertigt	rechtfertigen	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	_
 15	.	.	PUNCT	$.	PunctType=Peri	14	punct	_	_
 
 # sent_id = hdt-s2030
@@ -41554,7 +41554,7 @@
 2	Schiedsgericht	Schiedsgericht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 3	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	5	aux	_	_
 4	Streitfälle	Streitfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
-5	schlichten	unknown	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	schlichten	schlichten	VERB	VVINF	VerbForm=Inf	0	root	_	_
 
 # sent_id = hdt-s2105
 # text = Voraussetzungen für ein Schiedsverfahren ist , dass beide Parteien das Schiedsgericht im Vorfeld anerkennen .
@@ -48188,7 +48188,7 @@
 2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	5	aux	_	_
 3	jedes	jeder	DET	PIDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	4	det	_	_
 4	Stück	Stück	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
-5	vorhören	unknown	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	vorhören	vorhören	VERB	VVINF	VerbForm=Inf	0	root	_	_
 6	und	und	CCONJ	KON	_	13	cc	_	_
 7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Ausdruck	Ausdruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
@@ -54110,7 +54110,7 @@
 15	mit	mit	ADP	APPR	AdpType=Prep|Case=Dat	17	case	_	_
 16	kinderpornografischem	kinderpornografisch	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Sing	17	amod	_	_
 17	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	_
-18	ausgetauschte	unknown	VERB	VVFIN	Mood=Ind|Person=3|VerbForm=Fin	3	ccomp	_	_
+18	ausgetauschte	austauschen	VERB	VVFIN	Mood=Ind|Person=3|Typo=Yes|VerbForm=Fin	3	ccomp	_	 CorrectForm=austauschte
 19	.	.	PUNCT	$.	PunctType=Peri	3	punct	_	_
 
 # sent_id = hdt-s2752
@@ -60216,7 +60216,7 @@
 8	ZDF-Sendung	ZDF-Sendung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 9	"	"	PUNCT	$(	PunctType=Brck	11	punct	_	_
 10	heute	heute	ADV	ADV	_	11	advmod	_	_
-11	nacht	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	8	appos	_	_
+11	nacht	Nacht	VERB	VVPP	Aspect=Perf|VerbForm=Part	8	appos	_	_
 12	"	"	PUNCT	$(	PunctType=Brck	11	punct	_	_
 13	an	an	ADP	PTKVZ	PartType=Vbp	4	compound:prt	_	_
 14	,	,	PUNCT	$,	PunctType=Comm	21	punct	_	_
@@ -60418,7 +60418,7 @@
 4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
 6	Telefonkosten	Telefonkosten	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
-7	enhalten	unknown	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	enhalten	enthalten	VERB	VVINF	Typo=Yes|VerbForm=Inf	0	root	_	CorrectForm=enthalten
 8	.	.	PUNCT	$.	PunctType=Peri	7	punct	_	_
 
 # sent_id = hdt-s3073
@@ -68243,7 +68243,7 @@
 20	Fälle	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	23	obl	_	_
 21	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	22	det	_	_
 22	Backup	Backup	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
-23	durchzuführern	unknown	VERB	VVIZU	VerbForm=Inf	13	xcomp	_	_
+23	durchzuführern	durchführen	VERB	VVIZU	Typo=Yes|VerbForm=Inf	13	xcomp	_	CorrectForm=durchzuführen
 24	.	.	PUNCT	$.	PunctType=Peri	13	punct	_	_
 
 # sent_id = hdt-s3472
@@ -85055,7 +85055,7 @@
 19	auf	auf	ADP	APPR	AdpType=Prep|Case=Dat	21	case	_	_
 20	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	21	det	_	_
 21	Web-Seite	Web-Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	nmod	_	_
-22	mitzuprotokollieren	unknown	VERB	VVINF	VerbForm=Inf	7	conj	_	_
+22	mitzuprotokollieren	mitprotokollieren	VERB	VVINF	VerbForm=Inf	7	conj	_	_
 23	.	.	PUNCT	$.	PunctType=Peri	7	punct	_	_
 
 # sent_id = hdt-s4378
@@ -92538,7 +92538,7 @@
 16	Linux	Linux	PROPN	NE	Case=Acc|Number=Sing	14	nmod	_	_
 17	und	und	CCONJ	KON	_	18	cc	_	_
 18	Solaris	Solaris	PROPN	NE	Case=Acc|Number=Sing	16	conj	_	_
-19	entwicklet	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	_
+19	entwicklet	entwickeln	VERB	VVPP	Aspect=Perf|Typo=Yes|VerbForm=Part	0	root	_	CorrectForm=entwickelt
 20	,	,	PUNCT	$,	PunctType=Comm	24	punct	_	_
 21	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	24	nsubj	_	_
 22	auch	auch	ADV	ADV	_	23	advmod	_	_
@@ -98183,7 +98183,7 @@
 14	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	15	det	_	_
 15	Packung	Packung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 16	Kaugummi	Kaugummi	NOUN	NN	Number=Sing	15	appos	_	_
-17	ausssieht	unknown	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	2	acl:relcl	_	_
+17	ausssieht	aussehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Typo=Yes|VerbForm=Fin	2	acl:relcl	_	CorrectForm=aussieht
 18	,	,	PUNCT	$,	PunctType=Comm	17	punct	_	_
 19	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Existential-GivePred-ItExpl
 20	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
@@ -103141,11 +103141,11 @@
 # sent_id = hdt-s5342
 # text = Sie waren anscheinend nicht völlig unfundiert , aber weit übertrieben .
 1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj:pass	_	_
-2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 3	anscheinend	anscheinend	ADJ	ADJD	Degree=Pos|Variant=Short	6	advmod	_	_
 4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
 5	völlig	völlig	ADJ	ADJD	Degree=Pos|Variant=Short	6	advmod	_	_
-6	unfundiert	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	_
+6	unfundiert	unfundiert	ADJ	ADJD	Degree=Pos|Variant=Short	0	root	_	_
 7	,	,	PUNCT	$,	PunctType=Comm	10	punct	_	_
 8	aber	aber	CCONJ	KON	_	10	cc	_	_
 9	weit	weit	ADJ	ADJD	Degree=Pos|Variant=Short	10	advmod	_	_
@@ -104905,7 +104905,7 @@
 5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	USA	USA	PROPN	NE	Case=Dat|Number=Plur	3	nmod	_	_
 7	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
-8	desolat	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	_
+8	desolat	desolat	ADJ	ADJD	Degree=Pos	0	root	_	_
 9	:	:	PUNCT	$.	PunctType=Peri	8	punct	_	_
 
 # sent_id = hdt-s5439
@@ -123310,7 +123310,7 @@
 16	nur	nur	ADV	ADV	_	18	advmod	_	_
 17	seine	sein	DET	PPOSAT	Case=Acc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
 18	Orders	Orders	NOUN	NN	Case=Acc	19	obj	_	_
-19	loswerden	unknown	VERB	VVINF	VerbForm=Inf	15	xcomp	_	_
+19	loswerden	loswerden	VERB	VVINF	Typo=Yes|VerbForm=Inf	15	xcomp	_	CorrectForm=loszuwerden
 20	-	-	PUNCT	$(	PunctType=Brck	23	punct	_	_
 21	doch	doch	CCONJ	KON	_	23	cc	_	_
 22	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	23	nsubj	_	_
@@ -142439,7 +142439,7 @@
 5	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	8	aux	_	_
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Kommission	Kommission	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
-8	gegegensteuern	unknown	VERB	VVINF	VerbForm=Inf	0	root	_	_
+8	gegegensteuern	gegensteuern	VERB	VVINF	Typo=Yes|VerbForm=Inf	0	root	_	CorrectForm=gegensteuern
 9	.	.	PUNCT	$.	PunctType=Peri	8	punct	_	_
 
 # sent_id = hdt-s7435
@@ -145932,7 +145932,7 @@
 2	nach	nach	ADV	ADV	_	5	advmod	_	_
 3	wie	wie	CCONJ	KOKOM	ConjType=Comp	4	mark	_	_
 4	vor	vor	ADV	ADV	_	2	advcl	_	_
-5	ungeklärt	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	_
+5	ungeklärt	ungeklärt	ADJ	ADJD	Degree=Pos|Variant=Short	0	root	_	_
 6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 7	,	,	PUNCT	$,	PunctType=Comm	18	punct	_	_
 8	wie	wie	ADV	PWAV	PronType=Int	18	advmod	_	_
@@ -150760,7 +150760,7 @@
 24	und	und	CCONJ	KON	_	25	cc	_	_
 25	Geheimdiensten	Geheimdienst	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	23	conj	_	_
 26	weiter	weiter	ADV	ADV	Degree=Cmp	27	advmod	_	_
-27	aufgeweicht	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	6	ccomp	_	_
+27	aufgeweicht	aufweichen	VERB	VVPP	Aspect=Perf|VerbForm=Part	6	ccomp	_	_
 28	.	.	PUNCT	$.	PunctType=Peri	27	punct	_	_
 29	"	"	PUNCT	$(	PunctType=Brck	27	punct	_	_
 
@@ -153637,7 +153637,7 @@
 13	da	da	SCONJ	KOUS	_	16	mark	_	_
 14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	Helden	Held	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj:pass	_	_
-16	computeranimiert	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	6	advcl	_	_
+16	computeranimiert	computeranimieren	VERB	VVPP	Aspect=Perf|VerbForm=Part	6	advcl	_	_
 17	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 18	.	.	PUNCT	$.	PunctType=Peri	6	punct	_	_
 
@@ -157466,9 +157466,9 @@
 # text = Das Papier sei " unausgegoren " .
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Papier	Papier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
-3	sei	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	sei	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	"	"	PUNCT	$(	PunctType=Brck	5	punct	_	_
-5	unausgegoren	unknown	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	unausgegoren	unausgegoren	ADJ	ADJD	Degree=Pos	0	root	_	_
 6	"	"	PUNCT	$(	PunctType=Brck	5	punct	_	_
 7	.	.	PUNCT	$.	PunctType=Peri	5	punct	_	_
 
@@ -166747,7 +166747,7 @@
 14	Unternehmen	Unternehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	17	obl:arg	_	_
 15	Wettbewerbsvorteile	Wettbewerbsvorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
 16	zu	zu	PART	PTKZU	PartType=Inf	17	mark	_	_
-17	veschaffen	unknown	VERB	VVINF	VerbForm=Inf	8	advcl	_	_
+17	veschaffen	verschaffen	VERB	VVINF	Typo=Yes|VerbForm=Inf	8	advcl	_	CorrectForm=verschaffen
 18	.	.	PUNCT	$.	PunctType=Peri	3	punct	_	_
 
 # sent_id = hdt-s8743
@@ -168881,7 +168881,7 @@
 9	durch	durch	ADP	APPR	AdpType=Prep|Case=Acc	11	case	_	_
 10	solche	solcher	DET	PIDAT	Case=Acc|Number=Plur|PronType=Dem	11	det	_	_
 11	Angriffe	Angriff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	_
-12	lahmegelegt	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	_
+12	lahmegelegt	lahmlegen	VERB	VVPP	Aspect=Perf|Typo=Yes|VerbForm=Part	0	root	_	CorrectForm=lahmgelegt
 13	worden	werden	AUX	VAPP	Aspect=Perf|VerbForm=Part	12	aux:pass	_	_
 14	.	.	PUNCT	$.	PunctType=Peri	12	punct	_	_
 
@@ -172641,7 +172641,7 @@
 11	Internetzugang	Internetzugang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	_
 12	vor	vor	ADP	PTKVZ	PartType=Vbp	2	compound:prt	_	_
 13	-	-	PUNCT	$(	PunctType=Brck	14	punct	_	_
-14	sprachgesteuert	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	2	advcl	_	_
+14	sprachgesteuert	sprachsteuern	VERB	VVPP	Aspect=Perf|VerbForm=Part	2	advcl	_	_
 15	über	über	ADP	APPR	AdpType=Prep|Case=Dat	16	case	_	_
 16	Telefon	Telefon	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
 17	.	.	PUNCT	$.	PunctType=Peri	2	punct	_	_
@@ -175312,7 +175312,7 @@
 17	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	20	nsubj:pass	_	_
 18	nur	nur	ADV	ADV	_	19	advmod	_	_
 19	eingeschränkt	einschränken	ADJ	ADJD	Degree=Pos|Variant=Short	20	advmod	_	_
-20	recycelt	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	14	acl:relcl	_	_
+20	recycelt	recyceln	VERB	VVPP	Aspect=Perf|VerbForm=Part	14	acl:relcl	_	_
 21	werden	werden	AUX	VAINF	VerbForm=Inf	20	aux:pass	_	_
 22	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	20	aux	_	_
 23	"	"	PUNCT	$(	PunctType=Brck	7	punct	_	_
@@ -177241,7 +177241,7 @@
 14	nach	nach	ADV	ADV	_	13	advmod	_	_
 15	wie	wie	CCONJ	KOKOM	ConjType=Comp	16	mark	_	_
 16	vor	vor	ADV	ADV	_	14	advcl	_	_
-17	unerreicht	unknown	VERB	VVPP	Aspect=Perf|VerbForm=Part	13	xcomp	_	_
+17	unerreicht	unerreicht	ADJ	ADJD	Degree=Pos|Variant=Short	13	xcomp	_	_
 18	.	.	PUNCT	$.	PunctType=Peri	13	punct	_	_
 
 # sent_id = hdt-s9259
@@ -190745,7 +190745,7 @@
 3	Motto	Motto	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
 4	"	"	PUNCT	$(	PunctType=Brck	6	punct	_	_
 5	sicher	sicher	ADJ	ADJD	Degree=Pos|Variant=Short	6	advmod	_	_
-6	werden	unknown	VERB	VVINF	VerbForm=Inf	3	acl	_	_
+6	werden	werden	VERB	VVINF	VerbForm=Inf	3	acl	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	6	conj	_	_
 9	"	"	PUNCT	$(	PunctType=Brck	6	punct	_	_
