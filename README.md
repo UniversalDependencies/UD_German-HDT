@@ -128,7 +128,7 @@ Heise gave permission to distribute the text for academic use; the annotations a
 
 # Changelog
 
-2026-05-15 v2.19
+2026-11-15 v2.19
 * More lemma fixes for nouns and verbs
 * Additional small fixes
 
