@@ -264389,9 +264389,9 @@
 24	ihres	ihr	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
 25	Systems	System	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
 26	seien	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
-27	,	,	PUNCT	$,	PunctType=Comm	37	punct	_	_
+27	,	,	PUNCT	$,	PunctType=Comm	36	punct	_	_
 28	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	Austausch	Austausch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+29	Austausch	Austausch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	_
 30	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	Dateien	Datei	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
 32	also	also	ADV	ADV	_	36	advmod	_	_

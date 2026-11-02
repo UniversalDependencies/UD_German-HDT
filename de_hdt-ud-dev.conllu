@@ -54110,7 +54110,7 @@
 15	mit	mit	ADP	APPR	AdpType=Prep|Case=Dat	17	case	_	_
 16	kinderpornografischem	kinderpornografisch	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Sing	17	amod	_	_
 17	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	_
-18	ausgetauschte	austauschen	VERB	VVFIN	Mood=Ind|Person=3|Typo=Yes|VerbForm=Fin	3	ccomp	_	 CorrectForm=austauschte
+18	ausgetauschte	austauschen	VERB	VVFIN	Mood=Ind|Person=3|Typo=Yes|VerbForm=Fin	3	ccomp	_	CorrectForm=austauschte
 19	.	.	PUNCT	$.	PunctType=Peri	3	punct	_	_
 
 # sent_id = hdt-s2752
