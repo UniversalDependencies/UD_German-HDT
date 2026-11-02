@@ -128,11 +128,15 @@ Heise gave permission to distribute the text for academic use; the annotations a
 
 # Changelog
 
+2026-05-15 v2.19
+* More lemma fixes for nouns and verbs
+* Additional small fixes
+
 2026-05-15 v2.18
-  * Distinguished acl:relcl from acl based on the presence of PronType=Rel.
-  * automatically propagated Case, Number, and Person annotations within noun phrases
-  * fixed missing VerbType and NumForm bugs found by udapi
-  * changed prepositional phrases from obj to obl
+* Distinguished acl:relcl from acl based on the presence of PronType=Rel.
+* Automatically propagated Case, Number, and Person annotations within noun phrases
+* Fixed missing VerbType and NumForm bugs found by udapi
+* Changed prepositional phrases from obj to obl
 
 2025-11-15 v2.17
 * More lemma updates
