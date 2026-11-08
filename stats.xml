@@ -10,27 +10,27 @@
     <dev><sentences>18434</sentences><tokens>319513</tokens><words>324848</words><fused>5335</fused></dev>
     <test><sentences>18459</sentences><tokens>326250</tokens><words>331663</words><fused>5413</fused></test>
   </size>
-  <lemmas unique="144996" /><!-- der, ., ,, in, ein, und, sein, ", von, zu, mit, für, werden, auf, haben -->
+  <lemmas unique="151686" /><!-- der, ., ,, in, ein, und, sein, ", von, zu, mit, für, werden, auf, haben -->
   <forms unique="187796" /><!-- ., ,, die, der, in, dem, und, ", von, zu, den, das, mit, für, auf -->
   <fusions unique="21" /><!-- im, am, zum, zur, vom, beim, ins, fürs, ans, übers, aufs, ums, durchs, z., unterm -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">262611</tag><!-- neu, deutsch, erst, groß, weit, gut, eigen, letzte, hoch, schnell -->
+    <tag name="ADJ">262622</tag><!-- neu, deutsch, erst, groß, weit, gut, eigen, letzte, hoch, schnell -->
     <tag name="ADP">385725</tag><!-- in, von, mit, für, auf, zu, an, bei, nach, über -->
     <tag name="ADV">196593</tag><!-- auch, noch, nur, so, mehr, aber, bereits, allerdings, damit, schon -->
     <tag name="AUX">153141</tag><!-- sein, werden, haben, können, sollen, wollen, müssen, dürfen, mögen -->
     <tag name="CCONJ">95477</tag><!-- und, als, oder, wie, sowie, aber, sondern, doch, denn, beziehungsweise -->
     <tag name="DET">494367</tag><!-- der, ein, dieser, sein, ihr, alle, anderer, kein, viel, einige -->
     <tag name="INTJ">74</tag><!-- bitte, ja, nein, aha, ha, ach, hey, hü, pah, tja -->
-    <tag name="NOUN">729100</tag><!-- unknown, Jahr, Prozent, Million, Internet, Unternehmen, Mark, Firma, Milliarde, US-Dollar -->
+    <tag name="NOUN">729100</tag><!-- Jahr, Prozent, Million, Internet, Unternehmen, Mark, Firma, Milliarde, US-Dollar, Kunde -->
     <tag name="NUM">71308</tag><!-- zwei, 2000, drei, 2001, 1999, vier, fünf, 20, 100, 30 -->
     <tag name="PART">35402</tag><!-- nicht, zu -->
     <tag name="PRON">94847</tag><!-- der, sich, es, sie, man, er, wir, was, wer, ich -->
     <tag name="PROPN">193939</tag><!-- Microsoft, Telekom, Deutschland, Intel, USA, AOL, ibm, c't, Europa, AMD -->
     <tag name="PUNCT">396270</tag><!-- ., ,, ", :, (, ), -, ;, ?, ! -->
     <tag name="SCONJ">29448</tag><!-- dass, um, wenn, ob, daß, da, während, weil, nachdem, als -->
-    <tag name="VERB">263587</tag><!-- geben, sagen, kommen, machen, gehen, lassen, stehen, sehen, stellen, liegen -->
-    <tag name="X">53691</tag><!-- of, internet, the, and, digital, mobile, media, for, OS, network -->
+    <tag name="VERB">263575</tag><!-- geben, sagen, kommen, machen, gehen, lassen, stehen, sehen, stellen, liegen -->
+    <tag name="X">53692</tag><!-- of, internet, the, and, digital, mobile, media, for, OS, network -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="65">
@@ -38,7 +38,7 @@
     <feat name="AdpType" value="Circ" upos="ADP">1243</feat><!-- hinaus, aus, an, hin, her, hinweg, heraus, vorbei, zu, auf -->
     <feat name="AdpType" value="Post" upos="ADP">1190</feat><!-- zufolge, nach, lang, gegenüber, wegen, über, gemäß, entgegen, entlang, halber -->
     <feat name="AdpType" value="Prep" upos="ADP">362795</feat><!-- in, von, für, mit, auf, zu, an, bei, nach, über -->
-    <feat name="Aspect" value="Perf" upos="AUX,VERB">62615</feat><!-- worden, angekündigt, gewesen, gegeben, gemacht, geplant, erwartet, entwickelt, betroffen, gestellt -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">62606</feat><!-- worden, angekündigt, gewesen, gegeben, gemacht, geplant, erwartet, entwickelt, betroffen, gestellt -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,X">428624</feat><!-- die, für, den, sich, das, auf, eine, einen, in, über -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,X">697660</feat><!-- dem, in, von, der, mit, zu, den, bei, an, nach -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN">167659</feat><!-- der, des, eines, einer, Jahres, dieser, seiner, Unternehmens, neuen, deren -->
@@ -47,7 +47,7 @@
     <feat name="Definite" value="Def" upos="DET">359943</feat><!-- der, die, dem, den, das, des, 's -->
     <feat name="Definite" value="Ind" upos="DET">68956</feat><!-- eine, ein, einen, einer, einem, eines, eins, 'n, eine(n), einem/er -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">21724</feat><!-- mehr, weitere, weiter, weniger, weiteren, mehrere, eher, später, besser, schneller -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET">233534</feat><!-- so, neue, neuen, ersten, deutschen, deutsche, eigenen, erste, vergangenen, möglich -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET">233545</feat><!-- so, neue, neuen, ersten, deutschen, deutsche, eigenen, erste, vergangenen, möglich -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV,DET">8631</feat><!-- nächsten, letzten, meisten, größten, größte, nächste, möglichst, letzte, meist, wichtigsten -->
     <feat name="ExtPos" value="ADV" upos="ADP,DET">63</feat><!-- um, an, ein -->
     <feat name="ExtPos" value="SCONJ" upos="SCONJ">1</feat><!-- als -->
@@ -93,15 +93,15 @@
     <feat name="Reflex" value="Yes" upos="PRON">21144</feat><!-- sich, uns, mich, mir, euch, dir, dich -->
     <feat name="Tense" value="Past" upos="AUX,VERB">49922</feat><!-- hatte, war, wurde, sagte, wurden, waren, hatten, konnte, gab, erklärte -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">216600</feat><!-- ist, hat, wird, soll, sind, sei, will, werden, kann, haben -->
-    <feat name="Typo" value="Yes" upos="AUX,DET,NOUN,PRON,SCONJ,VERB">21</feat><!-- anderen, das, allen, Fallen, Falls, andere, ausprechen, da, will. -->
-    <feat name="Variant" value="Short" upos="ADJ">75390</feat><!-- möglich, gut, ganz, weltweit, deutlich, knapp, künftig, bekannt, schnell, offensichtlich -->
+    <feat name="Typo" value="Yes" upos="ADJ,AUX,DET,NOUN,PRON,SCONJ,VERB">74</feat><!-- anderen, das, allen, enspricht, Eingericht, Fallen, Falls, Fertiggestellen, abgegeben, abgelgt -->
+    <feat name="Variant" value="Short" upos="ADJ">75399</feat><!-- möglich, gut, ganz, weltweit, deutlich, knapp, künftig, bekannt, schnell, offensichtlich -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">268484</feat><!-- ist, hat, wird, soll, sind, sei, will, hatte, werden, kann -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">85625</feat><!-- werden, sein, können, haben, machen, geben, lassen, kommen, bringen, anbieten -->
-    <feat name="VerbForm" value="Part" upos="AUX,VERB">62615</feat><!-- worden, angekündigt, gewesen, gegeben, gemacht, geplant, erwartet, entwickelt, betroffen, gestellt -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">85622</feat><!-- werden, sein, können, haben, machen, geben, lassen, kommen, bringen, anbieten -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">62606</feat><!-- worden, angekündigt, gewesen, gegeben, gemacht, geplant, erwartet, entwickelt, betroffen, gestellt -->
     <feat name="VerbType" value="Mod" upos="AUX">48361</feat><!-- soll, will, können, kann, sollen, wollen, müssen, muss, könnte, konnte -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="44">
+  <deps unique="45">
     <dep name="acl">3892</dep>
     <dep name="acl:relcl">24770</dep>
     <dep name="advcl">18414</dep>
@@ -109,15 +109,15 @@
     <dep name="advmod">263663</dep>
     <dep name="amod">182340</dep>
     <dep name="appos">45709</dep>
-    <dep name="aux">84727</dep>
-    <dep name="aux:pass">32895</dep>
+    <dep name="aux">84726</dep>
+    <dep name="aux:pass">32894</dep>
     <dep name="case">381084</dep>
     <dep name="cc">75304</dep>
     <dep name="ccomp">16991</dep>
     <dep name="compound">1</dep>
     <dep name="compound:prt">20645</dep>
     <dep name="conj">94969</dep>
-    <dep name="cop">25365</dep>
+    <dep name="cop">25367</dep>
     <dep name="csubj">5366</dep>
     <dep name="csubj:pass">917</dep>
     <dep name="dep">1</dep>
@@ -129,6 +129,7 @@
     <dep name="fixed">70</dep>
     <dep name="flat">37877</dep>
     <dep name="flat:name">55471</dep>
+    <dep name="goeswith">1</dep>
     <dep name="iobj">110</dep>
     <dep name="mark">49680</dep>
     <dep name="nmod">229914</dep>
@@ -137,7 +138,7 @@
     <dep name="nsubj:pass">29979</dep>
     <dep name="nummod">58794</dep>
     <dep name="obj">139210</dep>
-    <dep name="obl">227118</dep>
+    <dep name="obl">227117</dep>
     <dep name="obl:arg">10186</dep>
     <dep name="orphan">10</dep>
     <dep name="parataxis">16073</dep>
