@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_German-HDT:
-commit acb944bb949404d5d5f1b544d8fcccc516eb4162
-Merge: 3eee7c2 7725af2
+commit 46d05d813dcc0180a3b28b463c4627a72fcd7513
+Merge: 8359ac9 05a0498
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(?:(de_hdt)-ud-train-[ab]-[12]\.conllu|(.+)-ud-(dev|test)\.conllu)'
 Language-treebank code (from CoNLL-U file name) = 'de_hdt'
@@ -19,9 +19,9 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 3101885 out of 3455580 total words have one or more features.
+Features: 3101884 out of 3455580 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 33 out of 37 found in the corpus.
+Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-HDT/de_hdt-ud-dev.conllu
@@ -43,7 +43,7 @@ Validity: 1
 (weight=0.37037037037037) * (score{size}=1) = 0.37037037037037
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
-(weight=0.111111111111111) * (score{udeprels}=0.802702702702703) = 0.0891891891891892
-(TOTAL score=0.813590060648884) * (availability=1) * (validity=1) = 0.813590060648884
+(weight=0.111111111111111) * (score{udeprels}=0.827027027027027) = 0.0918918918918919
+(TOTAL score=0.816292763351587) * (availability=1) * (validity=1) = 0.816292763351587
 STARS = 4
-UD_German-HDT	0.813590060648884	4
+UD_German-HDT	0.816292763351587	4
